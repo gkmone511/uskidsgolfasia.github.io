@@ -1,0 +1,84 @@
+ /******************************************************************************
+ * Block template
+ */
+
+.sidebar .block-title {
+  background-color: #ECECEC;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#E0E0E0), to(#CCCCCC));
+	background-image: -webkit-linear-gradient(top, #E0E0E0, #CCCCCC);
+	background-image:    -moz-linear-gradient(top, #E0E0E0, #CCCCCC);
+	background-image:      -o-linear-gradient(top, #E0E0E0, #CCCCCC);
+	background-image:         linear-gradient(to bottom, #E0E0E0, #CCCCCC);
+
+  color: #000000;
+  font-size: 12px;
+  line-height: 18px;
+  margin-top: 0;
+  padding: 7px 15px;
+  text-transform: uppercase;
+}
+
+.sidebar .block .content {
+  font-size: 12px;
+  overflow: hidden;
+  padding: 1em;
+}
+
+#sidebar-left .block .content {
+  padding-right: 1.75em;
+}
+#sidebar-right .block .content {
+  padding-left: 1.75em;
+}
+
+.sidebar .content a {
+  color: #4EA000;
+}
+
+#sidebar-left .block-title,
+#sidebar-left #block-views-exp-news-page-1 h2 {
+	background: url("../images/bkg_dots.gif") repeat-x 0 100%;
+	font-size: 18px;
+	line-height: 23px;
+	color: #111;
+	text-transform: none;
+	font-weight: normal;
+	width: 152px;
+	margin-bottom: 0;
+	padding-bottom:15px;
+	margin-left: 8px;
+}
+#sidebar-left .block-menu-block .content {
+	padding:0;
+}
+#sidebar-left .block-menu-block ul {
+	margin: 0 0 0 8px;
+	padding: 0;
+}
+#sidebar-left .block-menu-block ul li a {
+	color: #666;
+	text-decoration: none;
+	display: block;
+	padding: 6px 13px 5px;
+	background: #fafafa;
+}
+#sidebar-left .block-menu-block ul li a:hover {
+	background: #f7eedb;
+}
+#sidebar-left .block-menu-block ul li a.active {
+	background: none;
+	font-weight: bold;
+	color: #000;
+}
+.page-user #sidebar-left .block-menu-block ul li a.active-trail {
+  background: none;
+  font-weight: bold;
+  color: #000;
+}
+#sidebar-left .block-menu-block ul li {
+	background: url(../images/bkg_dots.gif) repeat-x 0 100%;
+	font-size: 12px;
+	list-style: none;
+	padding: 0 0 1px 0;
+	margin: 0;
+}

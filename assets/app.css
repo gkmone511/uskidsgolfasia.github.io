@@ -1,0 +1,68 @@
+﻿.dropdown-country-custom-content {
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    background: #ffffff;
+    z-index: 999;
+    top: 30px;
+    align-items: center;
+    padding: 10px 0;
+    width: 5%;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.75);
+    border: 2px solid #3ba200;
+    background: transparent;
+    border-radius: 28px;
+}
+
+@media (max-width: 900px) {
+    .dropdown-country-custom-content {
+        top: 42px;
+        padding: 5px 0
+    }
+
+    .dropdown-country-custom-content .horizontal-gradient {
+        height: 0 !important;
+        margin: 5px 0 !important
+    }
+}
+
+.dropdown-country-custom-content a {
+    padding: 3px 10px;
+    background: #f3f5f3;
+    border: 2px solid transparent;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    border-radius: 28px;
+    transition: all 0.2s ease-in
+}
+
+.dropdown-country-custom-content a:hover,
+.dropdown-country-custom-content .open a.split-button-toggle,
+.open .dropdown-country-custom-content a.split-button-toggle,
+.dropdown-country-custom-content .open a.sc-flyout-control,
+.dropdown-country-custom-content .open a.social-sharing-flyout-content-button,
+.open .dropdown-country-custom-content a.sc-flyout-control,
+.open .dropdown-country-custom-content a.social-sharing-flyout-content-button {
+    color: black !important;
+    border: 2px solid #3ba200;
+    background: transparent
+}
+
+.dropdown-country-custom-content .horizontal-gradient {
+    width: 80%;
+    margin: 20px 0;
+    background: radial-gradient(circle, #636363 4%, #a5a5a5 65%, #bfbfbf 100%);
+    height: 1px;
+    opacity: 1
+}
+
+.dropdown-country-custom:hover .dropdown-country-custom-content,
+.open .dropdown-country-custom.split-button-toggle .dropdown-country-custom-content,
+.open .dropdown-country-custom.sc-flyout-control .dropdown-country-custom-content,
+.open .dropdown-country-custom.social-sharing-flyout-content-button .dropdown-country-custom-content {
+    display: flex
+}

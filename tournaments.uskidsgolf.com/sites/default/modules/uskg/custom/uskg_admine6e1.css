@@ -1,0 +1,24 @@
+
+.right {
+  float: right;
+}
+
+.field-widget-field-collection-table fieldset {
+  border: none;
+  margin: 0;
+}
+
+.field-widget-field-collection-table legend,
+.field-widget-field-collection-table .form-item .form-wrapper label {
+  display: none;
+}
+
+
+
+.field-widget-entityreference-autocomplete .chosen-container {
+  max-width: 918px;
+}
+
+.field-widget-entityreference-autocomplete .field-multiple-table .chosen-container {
+  max-width: 757px;
+}

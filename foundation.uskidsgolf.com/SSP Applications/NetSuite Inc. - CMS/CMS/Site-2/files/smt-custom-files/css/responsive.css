@@ -1,0 +1,2293 @@
+@media (min-width: 320px ) and (max-width: 479px ) {
+    .footer .footer-main-container .footer-section2 .footer-column-contact p {
+        padding-left: 37px;
+    }
+    .footer .footer-main-container .footer-section2 .footer-logo {
+        padding-top: 15px;
+display: block !important;
+    }
+    .footer .footer-main-container .footer-quote p {
+         margin-left: 0;
+text-align: left;
+    }
+.footer .footer-main-container .footer-section2 .footer-column-menu {
+   	text-align: left;
+margin: 25px auto;
+display: flex;
+	}
+.footer .footer-main-container .footer-section2 .footer-logo img {
+    max-width: 130px;
+}
+.footer .footer-main-container {
+    padding: 0 0;
+}
+.footer .footer-main-container .footer-column-contact .footer-social-icon i {
+    font-size: 20px;
+    padding: 0 0;
+}
+    .footer .footer-section2 {
+         padding-top: 0;
+    }
+    .text-center-mobile{
+        text-align: center !important;
+    }
+    .navbar-brand{
+        height: 50px;
+    }
+    .logo-img {
+        margin-top: 0;
+    }
+    .navbar-brand img{
+        width: 100%;
+        height: 100%;
+    }
+    .header-menu {
+        padding-top: 30px;
+    }
+    /* Start :: Home Page Responsive CSS */
+    .home-page-banner1 .text-block .banner-text2{
+        font-size: 20px;
+    }
+    .home-page-banner1 .text-block {
+        padding-top: 50px;
+    }
+    .home-page-banner1 {
+        height: auto;
+        padding-bottom: 50px;
+    }
+    .home-page-banner1 .text-block p{
+        font-size: 14px;
+    }
+    .mission .home-section-2{
+        margin: 40px 0px;
+    }
+    .mission .home-section-2 p {
+        font-size: 20px;
+        line-height: 30px;
+        margin-right: 0px;
+    }
+    .mission .home-section-2-image {
+        margin: 30px 0px;
+    }
+    .mission .home-section-2-image img{
+        width: 100%;
+        height: auto;
+    }
+    .QuickLinks {
+        padding-bottom: 50px;
+    }
+    .QuickLinks .section-3-quicklink {
+        padding-top: 40px;
+    }
+    .home-section-4 .section-4 .thumbnail img{
+        width: 100%;
+        height: auto;
+    }
+    .home-section-4 {
+        margin-top: 60px;
+    }
+    .home-section-4 .section-4 .section-4-content {
+        margin-top: 45px;
+    }
+    .home-section-4 .section-4 .section-4-content h4 {
+        font-size: 20px;
+    }
+    .home-section-4 .section-4 .section-4-content p {
+        margin-top: 15px;
+        font-size: 14px;
+    }
+    .home-section-5 .section-5 p {
+        font-size: 18px;
+        margin-top: 25px;
+    }
+    .home-section-5 .section-5 {
+        padding: 65px 0px 231px 0px;
+    }
+    .home-section-5 .section-5 .transparent-button {
+        margin-top: 15px;
+    }
+    .home-section-6 .section-6 h1 {
+        margin-top: 65px;
+        font-size: 24px;
+    }
+    .mt-5{
+        margin-top: 2rem !important;
+    }
+    .home-section-6 .section-6 .follow-us-section {
+        margin: 55px 0px 70px;
+    }
+    /* End :: Home Page Responsive CSS */
+
+    /* Start :: Learn Page Responsive CSS */
+    .learn-banner-image1 .section1-banner-image h1 {
+        margin-top: 8px;
+        font-size: 30px;
+    }
+    .learn-banner-image1 .section1-banner-image p {
+        margin-top: 1px;
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .player-pathway .section2-player-pathway {
+        margin-top: 75px;
+    }
+    .player-pathway .section2-player-pathway .player-pathway-image {
+        padding-top: 20px;
+        width: 100%;
+        height: auto;
+    }
+    .player-pathway .section2-player-pathway p {
+        font-size: 14px;
+    }
+    .player-pathway .section2-player-pathway .player-pathway-learn-more {
+        margin-top: 15px;
+    }
+    .national-parents {
+        margin-top: 80px;
+    }
+    .national-parents .national-parents-text h1 {
+        font-size: 22px;
+        padding-top: 70px;
+    }
+    .national-parents .national-parents-text p {
+        font-size: 14px;
+        padding-top: 15px;
+    }
+    .Longleaf {
+        padding-bottom: 100px;
+    }
+    .Longleaf .Longleaf-tee .lltf-image {
+        margin-top: 100px;
+    }
+    .Longleaf .Longleaf-tee .lltf-text {
+        margin-top: 80px;
+        margin-left: 0;
+    }
+    .Longleaf .Longleaf-tee .lltf-text h4 {
+        font-size: 24px;
+    }
+    .Longleaf .Longleaf-tee .lltf-text p {
+        font-size: 14px;
+        line-height: 22px;
+        margin-top: 14px;
+    }
+    .equipment .equipment-overview h1 {
+        padding-top: 50px;
+        font-size: 23px;
+        /* line-height: 31px; */
+    }
+    .equipment .equipment-overview p {
+        padding-top: 14px;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .equipment .equipment-overview .molded-grip {
+        padding-top: 25px;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .equipment .equipment-overview .yard-club {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .equipment .equipment-overview .shop-now {
+        margin-top: 15px;
+    }
+    .further-question .any-further-question h1 {
+        font-size: 21px;
+        line-height: 27px;
+        padding-top: 60px;
+    }
+    .further-question .any-further-question p {
+        font-size: 15px;
+        line-height: 22px;
+        padding-top: 10px;
+    }
+    /* End :: Learn Page Responsive CSS */
+
+    /* Start :: Player Pathway Page Responsive */
+    .player_pathway .player_pathway_banner_content h5 {
+        font-size: 14px;
+        line-height: 22px;
+        padding-top: 60px;
+    }
+    .player_pathway .player_pathway_banner_content h1 {
+        font-size: 18px;
+        line-height: 31px;
+        padding-top: 6px;
+    }
+    .player_pathway .player_pathway_banner_content p {
+        line-height: 23px;
+        padding-top: 6px;
+    }
+    .feature {
+        margin-top: 65px;
+    }
+    .feature .player_pathway_feature h1 {
+        font-size: 23px;
+        line-height: 26px;
+    }
+    .feature .player_pathway_feature p {
+        font-size: 14px;
+        line-height: 22px;
+        margin-top: 14px;
+    }
+    .learning_game {
+        padding-top: 53px;
+    }
+    .learning_game .player_pathway_learning_game h1 {
+        font-size: 23px;
+        line-height: 26px;
+    }
+    .learning_game .player_pathway_learning_game p {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .learning_game .player_pathway_learning_game .lg-image1 img {
+        padding-top: 40px;
+    }
+    .learning_game .player_pathway_learning_game .lg-image2 img {
+        padding-top: 60px;
+    }
+    .more_about .more_about_player_pathway {
+        padding-top: 60px;
+    }
+    .more_about .more_about_player_pathway h1 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .strat_journey {
+        padding-top: 50px;
+    }
+    .strat_journey .player_pathway_your_journey h1 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .strat_journey .player_pathway_your_journey p {
+        font-size: 14px;
+        line-height: 24px;
+        padding-top: 12px;
+    }
+    /* End :: Player Pathway Page Responsive CSS */
+
+    /* Start :: Learn Camp Page Responsive CSS */
+    .learn_camps {
+        padding-top: 50px;
+    }
+    .learn_camps h5 {
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .learn_camps h1 {
+        font-size: 24px;
+    }
+    .learn_camps p {
+        font-size: 14px;
+        padding-top: 7px;
+    }
+    .upcoming_camps .learn_camps_title h1 {
+        font-size: 25px;
+        line-height: 28px;
+        padding-top: 55px;
+    }
+    .upcoming_camps .learn_camps_title p {
+        font-size: 14px;
+        line-height: 22px;
+        padding-top: 13px;
+    }
+    .upcoming_camps .learn_camps_img {
+        padding-top: 80px;
+    }
+    .upcoming_camps .learn_camps_img img {
+        max-width: 100%;
+        height: auto;
+    }
+    .testimonial .testimonial_content {
+        padding-top: 50px;
+    }
+    .testimonial .testimonial_content p {
+        font-size: 17px;
+        line-height: 30px;
+    }
+    .cmp_gallery h1 {
+        font-size: 23px;
+        line-height: 29px;
+        padding-top: 65px;
+    }
+    .explr_camps h1 {
+        font-size: 24px;
+        line-height: 29px;
+        padding-top: 40px;
+    }
+    .explr_camps p {
+        font-size: 14px;
+        line-height: 22px;
+        padding-top: 8px;
+    }
+    /* End :: Learn Camp Page Responsive CSS */
+
+    /* Start :: About Us Page Responsive CSS */
+    .about-us-banner1 h1 {
+        font-size: 15px;
+        padding-top: 45px;
+    }
+    .about-us-banner1 p {
+        font-size: 23px;
+        line-height: 35px;
+        padding-top: 16px;
+    }
+    .out_history h1 {
+        font-size: 24px;
+        line-height: 28px;
+        padding-top: 70px;
+    }
+    .out_history p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .team {
+        padding-top: 50px;
+    }
+    .team h1 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .team p {
+        font-size: 14px;
+        line-height: 22px;
+        padding-top: 10px;
+    }
+    .team_member_profile h1 {
+        font-size: 13px;
+        line-height: 30px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .team_member_profile h3 {
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+    }
+    .team_member_profile p,
+    .foundation_modals p{
+        font-size: 14px;
+        line-height: 23px;
+        text-align: justify;
+    }
+    .team_member_profile .modal-dialog,
+    .foundation_modals .modal-dialog {
+        max-width: 96%;
+        margin: 10px auto;
+    }
+    .team_member_profile .modal-body,
+    .foundation_modals .modal-body{
+        padding: 50px 30px;
+    }
+    .foundation_modals h1 {
+        font-size: 16px;
+        line-height: 24px;
+        padding-top: 30px;
+    }
+    .foundation_modals .foundation_netflix_short_game .about_us_team .view_documentary_btn .view_documentary {
+         width: 100%;
+    }
+    .donation {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .donation p {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: justify;
+    }
+    .about_us_contact_section .contact-us {
+        margin-top: 50px;
+    }
+    .about_us_contact_section .contact-us h1 {
+        font-size: 23px;
+        line-height: 18px;
+        text-align: justify;
+    }
+    .about_us_contact_section .contact-us p {
+        font-size: 14px;
+        line-height: 22px;
+        margin-top: 10px;
+        text-align: justify;
+    }
+    .about_us_contact_section .contact-us .contact_us {
+        margin-top: 4px;
+    }
+    .donation_modals .modal-body {
+        padding: 100px 30px;
+    }
+    .donation_modals .modal-dialog {
+        max-width: 96%;
+        margin: 10px auto;
+    }
+    .donation .donation_content .founder_detail .donate_btn_class p {
+        margin-top: 20px;
+        padding-left: 0px;
+    }
+    /* End :: About Us Page Responsive CSS */
+
+    /* Start :: Golf Professional Page Responsive CSS */
+    .golf_professional h5 {
+        font-size: 14px;
+        line-height: 15px;
+        padding-top: 40px;
+    }
+    .golf_professional h1 {
+        font-size: 34px;
+        line-height: 40px;
+        padding-top: 4px;
+    }
+    .golf_professional p {
+        font-size: 14px;
+        line-height: 23px;
+        padding-top: 20px;
+    }
+    .golf_professional_2nd_sec {
+        max-width: 100%;
+        height: auto;
+    }
+    .get_certified {
+        padding-bottom: 40px;
+    }
+    .get_certified .get_certified_text {
+        padding-top: 60px;
+    }
+    .get_certified .get_certified_text h1 {
+        font-size: 24px;
+        line-height: 15px;
+    }
+    .get_certified .get_certified_text p {
+        font-size: 14px;
+        line-height: 23px;
+        padding-top: 12px;
+        text-align: justify;
+    }
+    .get_certified .get_certified_text .learn_more_btn {
+        margin-top: 15px;
+    }
+    .get_certified .get_certified_img {
+        padding-top: 55px;
+    }
+    .benefits_certifying {
+        padding-bottom: 50px;
+    }
+    .benefits_certifying h1 {
+        font-size: 22px;
+        line-height: 29px;
+        padding-top: 40px;
+    }
+    .benefits_certifying p {
+        font-size: 14px;
+        line-height: 23px;
+        padding-top: 12px;
+        text-align: justify;
+    }
+    .benefits_certifying .benefits {
+        padding-top: 10px;
+    }
+    .benefits_certifying .benefits .benefit_points {
+        padding-top: 12px;
+        text-align: justify;
+    }
+    .benefits_certifying .benefits_content .content {
+        text-align: justify;
+    }
+    .resources h1 {
+        font-size: 24px;
+        line-height: 28px;
+        padding-top: 40px;
+    }
+    .golf_professional_2nd_sec ul {
+        display: block;
+        padding: 0px;
+    }
+    .golf_professional_2nd_sec li {
+        line-height: 40px;
+    }
+    .golf_professional_2nd_sec li::after {
+        display: none;
+    }
+    .resources .resources_content .resource_image {
+        height: auto;
+    }
+    .any_question {
+        padding-bottom: 40px;
+    }
+    .any_question h1 {
+        font-size: 21px;
+        line-height: 29px;
+        padding-top: 40px;
+    }
+    .any_question p {
+        font-size: 14px;
+        line-height: 22px;
+        padding-top: 7px;
+        text-align: justify;
+    }
+    .any_question .golf_professional_contact_us {
+        margin-top: 10px;
+    }
+    /* End :: Golf Professional Page Responsive CSS */
+
+    /* Start :: Golf Professional Player Pathway Page Responsive CSS */
+    .gp_player_pathway h5 {
+        font-size: 14px;
+        line-height: 23px;
+        padding-top: 50px;
+    }
+    .gp_player_pathway h1 {
+        font-size: 27px;
+        line-height: 33px;
+        padding-top: 3px;
+    }
+    .gp_player_pathway p {
+        font-size: 14px;
+        line-height: 22px;
+        padding-top: 3px;
+        text-align: justify;
+    }
+    .gp_player_pathway .play_video {
+        margin-top: 10px;
+    }
+    .gp_about_player_pathway {
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+    .gp_about_player_pathway .gp_about_player_pathway_content h1 {
+        text-align: justify;
+        font-size: 19px;
+        line-height: 29px;
+        padding-top: 20px;
+    }
+    .gp_about_player_pathway .content p {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: justify;
+    }
+    .feature {
+        margin-top: 35px;
+    }
+    .feature h1 {
+        font-size: 23px;
+        line-height: 20px;
+    }
+    .feature p {
+        font-size: 14px;
+        line-height: 22px;
+        padding-top: 14px;
+        text-align: justify;
+    }
+    .feature .feature_cards .card-mobile{
+        padding-bottom: 20px;
+    }
+    .player_pathway_app {
+        padding-bottom: 50px;
+    }
+    .player_pathway_app .app_content {
+        margin-top: 20px;
+    }
+    .player_pathway_app .app_content h1 {
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .player_pathway_app .app_content p {
+        font-size: 14px;
+        line-height: 22px;
+        padding-top: 5px;
+        text-align: justify;
+    }
+    .player_pathway_app .app_points {
+        font-size: 14px;
+        line-height: 22px;
+        padding-bottom: 3px;
+        text-align: left;
+        padding-left: 0;
+    }
+    .gp_player_pathway_2nd_sec {
+        height: auto;
+    }
+    .gp_player_pathway_2nd_sec .gp_player_pathway_text ul {
+        padding: 0px;
+        display: block;
+    }
+    .gp_player_pathway_2nd_sec .gp_player_pathway_text li {
+        line-height: 40px;
+    }
+    .gp_player_pathway_2nd_sec li::after {
+        display: none;
+    }
+    .player_pathway_app .app_image img {
+        padding-top: 40px;
+    }
+    .gp_player_pathway_testimonial .testimonial_content {
+        padding-top: 30px;
+    }
+    .gp_player_pathway_testimonial .testimonial_content p {
+        font-size: 21px;
+        line-height: 24px;
+    }
+    .gp_player_pathway_testimonial .testimonial_img {
+        margin-top: 10px;
+    }
+    .gp_player_pathway_testimonial h5 {
+        font-size: 18px;
+        line-height: 25px;
+        padding-top: 6px;
+    }
+    .gp_player_pathway_testimonial h6 {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .explore_further {
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+    .explore_further .further_image_text p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    /* End :: Golf Professional Player Pathway Page Responsive CSS */
+
+    /* Start :: Golf Professional Package Page Responsive CSS */
+    .golf_professional_package h3 {
+        font-size: 14px;
+        line-height: 14px;
+        padding-top: 60px;
+    }
+    .golf_professional_package h1 {
+        font-size: 40px;
+        line-height: 40px;
+        padding-top: 5px;
+    }
+    .golf_professional_package p {
+        font-size: 14px;
+        line-height: 22px;
+        padding-top: 2px;
+    }
+    .available_kit {
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+    .available_kit h1 {
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .available_kit p {
+        font-size: 14px;
+        line-height: 21px;
+        margin-top: 10px;
+        text-align: justify;
+    }
+    .available_kit .available_kit_image {
+        padding-top: 30px;
+        width: 100%;
+    }
+    .available_kit .available_kit_content h1 {
+        font-size: 22px;
+        line-height: 34px;
+        padding-top: 20px;
+    }
+    .available_kit .available_kit_content h3 {
+        font-size: 18px;
+        line-height: 16px;
+        padding-top: 0px;
+    }
+    .available_kit .available_kit_content p {
+        font-size: 14px;
+        line-height: 22px;
+        padding-top: 0px;
+        text-align: justify;
+    }
+    .suggested_qty {
+        margin-top: 30px;
+    }
+    .suggested_qty h1 {
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .suggested_qty .suggested_logo_image img {
+        width: 100%;
+        height: auto;
+    }
+    /* End :: Golf Professional Package Page Responsive CSS */
+
+    /* Start :: Golf Professional Get Certified Page Responsive CSS */
+    .gp_get_certified h3 {
+        font-size: 14px;
+        line-height: 13px;
+        padding-top: 80px;
+    }
+    .gp_get_certified h1 {
+        font-size: 34px;
+        line-height: 35px;
+        padding-top: 6px;
+    }
+    .gp_get_certified p {
+        font-size: 14px;
+        line-height: 23px;
+        padding-top: 4px;
+        text-align: justify;
+    }
+    .gp_get_certified_2nd_sec {
+        height: auto;
+    }
+    .gp_get_certified_2nd_sec ul {
+        display: block;
+        padding: 0;
+    }
+    .gp_get_certified_2nd_sec li {
+        line-height: 40px;
+    }
+    .gp_get_certified_2nd_sec li::after {
+        display: none;
+    }
+    .gp_get_certified_3rd_sec {
+        padding: 50px 0px 50px 0px;
+    }
+    .gp_get_certified_3rd_sec h1 {
+        font-size: 24px;
+        line-height: 10px;
+    }
+    .gp_get_certified_3rd_sec .get_certified_points .certified_points {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: justify;
+    }
+    .gp_get_certified_3rd_sec .learn-more {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .maximize_certification {
+        padding: 60px 0px 60px 0px;
+    }
+    .maximize_certification h1 {
+        font-size: 20px;
+        line-height: 10px;
+        margin-top: 30px;
+    }
+    .maximize_certification .maximize_certification_points .certified_points {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: justify;
+    }
+    .maximize_certification .all_certification {
+        margin-top: 15px;
+    }
+    .our_trainer {
+        padding: 50px 0px 50px 0px;
+    }
+    .our_trainer h1 {
+        font-size: 25px;
+        line-height: 28px;
+    }
+    .our_trainer p {
+        font-size: 14px;
+        line-height: 22px;
+        margin-top: 8px;
+        text-align: justify;
+    }
+    .our_trainer .trainer_image_content {
+        padding-top: 35px;
+    }
+    .our_trainer .trainer_image_content h1 {
+        font-size: 23px;
+        line-height: 38px;
+        margin-top: 20px;
+    }
+    .our_trainer .trainer_image_content .trainer_content {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: justify;
+    }
+    .available_certificate {
+        padding: 30px 0px 50px 0px;
+    }
+    .available_certificate h1 {
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .available_certificate p {
+        font-size: 14px;
+        line-height: 22px;
+        margin-top: 10px;
+        text-align: justify;
+    }
+    .available_certificate .certificate_btn {
+        margin-top: 10px;
+    }
+    .starting_player_model .modal-dialog{
+        max-width: 96%;
+        margin: 10px auto;
+    }
+    .starting_player_model .modal-body{
+        padding: 25px 20px;
+    }
+    .starting_player_model h1 {
+        font-size: 18px;
+        line-height: 29px;
+        margin-top: 55px;
+    }
+    .starting_player_model p {
+        font-size: 14px;
+        line-height: 22px;
+        margin-top: 0px;
+        text-align: justify;
+    }
+    .maximize_certification .maximize_certification_content {
+        padding-left: 0px;
+    }
+    /* End :: Golf Professional Get Certified Page Responsive CSS */
+}
+
+@media (min-width: 480px ) and (max-width: 767px ){
+    footer .footer-main-container .footer-section2 .footer-column-contact p {
+        padding-left: 37px;
+    }
+    .footer .footer-main-container .footer-section2 .footer-logo {
+        padding-top: 15px;
+    }
+    .footer .footer-main-container .footer-quote p {
+        margin-left: 0;
+    }
+    .footer .footer-section2 {
+        padding-top: 0;
+    }
+    .text-center-mobile{
+        text-align: center !important;
+    }
+    .navbar-brand{
+        height: 50px;
+    }
+    .logo-img {
+        margin-top: 0;
+    }
+    .navbar-brand img{
+        width: 100%;
+        height: 100%;
+    }
+    .header-menu {
+        padding-top: 30px;
+    }
+    /* Start :: USKG Home Page Responsive CSS */
+    .home-page-banner1 .text-block {
+        padding-top: 80px;
+    }
+    .home-page-banner1 .text-block span {
+        font-size: 14px;
+    }
+    .home-page-banner1 .text-block .banner-text2 {
+        line-height: 30px;
+        font-size: 25px;
+        margin-top: 20px;
+    }
+    .home-page-banner1 .home-page-banner1-text{
+        margin-top: 20px;
+    }
+    .home-page-banner1 .text-block p {
+        line-height: 22px;
+        font-size: 14px;
+    }
+    .mission .home-section-2 {
+        margin: 30px 0px;
+    }
+    .mission .home-section-2-image {
+        margin: 30px 0px;
+    }
+    .mission .home-section-2 p {
+        font-size: 24px;
+        line-height: 29px;
+        text-align: justify;
+    }
+    .mission .home-section-2-image img{
+        width: 100%;
+        height: auto;
+    }
+    .QuickLinks {
+        padding-bottom: 60px;
+    }
+    .QuickLinks .section-3-quicklink h1 {
+        font-size: 24px;
+    }
+    .QuickLinks .section-3-quicklink {
+        padding-top: 40px;
+    }
+    .home-section-4 {
+        padding-bottom: 50px;
+        margin-top: 60px;
+    }
+    .home-section-4 .section-4 .section-4-content h4 {
+        font-size: 24px;
+    }
+    .home-section-4 .section-4 .section-4-content p {
+        margin-top: 10px;
+        line-height: 23px;
+        font-size: 15px;
+        text-align: justify;
+    }
+    .home-section-4 .section-4 .thumbnail img{
+        width: 100%;
+        height: auto;
+    }
+    .home-section-4 .section-4 .section-4-content {
+        margin-top: 55px;
+    }
+    .home-section-4 .section-4 .section-4-content .view-all {
+        margin-top: 0px;
+        width: 100%;
+    }
+    .home-section-6 .section-6 h1 {
+        margin-top: 60px;
+    }
+    .home-section-6 .section-6 .follow-us-section {
+        margin: 55px 0px 70px;
+    }
+    .home-section-7 .section-7 p {
+        font-size: 18px;
+    }
+    /* End :: Home Page Responsive CSS */
+
+    /* Start :: Learn Page Responsive CSS */
+    .learn-banner-image1 .section1-banner-image h4 {
+        padding-top: 60px;
+        font-size: 14px;
+        line-height: 7px;
+    }
+    .learn-banner-image1 .section1-banner-image h1 {
+        margin-top: 21px;
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .player-pathway .section2-player-pathway {
+        margin-top: 55px;
+    }
+    .player-pathway .section2-player-pathway .player-pathway-image {
+        padding-top: 13px;
+        width: 100%;
+        height: auto;
+    }
+    .player-pathway .section2-player-pathway p {
+        padding-top: 22px;
+        font-size: 15px;
+        line-height: 23px;
+        text-align: justify;
+    }
+    .national-parents {
+        margin-top: 60px;
+    }
+    .national-parents .national-parents-text h1 {
+        font-size: 24px;
+        line-height: 28px;
+        padding-top: 80px;
+    }
+    .national-parents .national-parents-text p {
+        padding-top: 10px;
+        text-align: justify;
+    }
+    .Longleaf{
+        padding-bottom: 70px;
+    }
+    .Longleaf .Longleaf-tee .lltf-image {
+        margin-top: 74px;
+    }
+    .Longleaf .Longleaf-tee .lltf-text {
+        margin-top: 57px;
+        margin-left: 0;
+    }
+    .Longleaf .Longleaf-tee .lltf-text h4 {
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .Longleaf .Longleaf-tee .lltf-text p {
+        font-size: 14px;
+        line-height: 23px;
+        margin-top: 12px;
+        text-align: justify;
+    }
+    .Longleaf .Longleaf-tee .lltf-text .llts-button {
+        margin-top: 10px;
+    }
+    .equipment {
+        padding-bottom: 60px;
+    }
+    .equipment .equipment-overview h1 {
+        padding-top: 46px;
+        font-size: 24px;
+        line-height: 15px;
+    }
+    .equipment .equipment-overview p {
+        padding-top: 15px;
+        line-height: 21px;
+        text-align: justify;
+    }
+    .equipment .equipment-overview .molded-grip {
+        padding-top: 26px;
+        line-height: 23px;
+        text-align: justify;
+    }
+    .further-question {
+        padding: 0px 0px 40px 0px;
+    }
+    .further-question .any-further-question h1 {
+        font-size: 24px;
+        line-height: 23px;
+        padding-top: 40px;
+    }
+    .further-question .any-further-question p {
+        font-size: 15px;
+        line-height: 23px;
+        padding-top: 5px;
+        text-align: justify;
+    }
+    .further-question .any-further-question .further-question-contact-us {
+        margin-top: 10px;
+    }
+    /* End :: Learn Page Responsive CSS */
+
+    /* Start :: Player Pathway Page Responsive CSS */
+    .player_pathway .player_pathway_banner_content h5 {
+        font-size: 14px;
+        line-height: 22px;
+        padding-top: 50px;
+    }
+    .player_pathway .player_pathway_banner_content h1 {
+        font-size: 30px;
+        line-height: 37px;
+        font-family: 'Montserrat-Medium';
+        padding-top: 3px;
+    }
+    .player_pathway .player_pathway_banner_content p {
+        font-size: 14px;
+        line-height: 23px;
+        padding-top: 5px;
+        text-align: justify;
+    }
+    .player_pathway .player_pathway_banner_content .play_video {
+        margin-top: 12px;
+    }
+    .feature {
+        margin-top: 60px;
+        padding-bottom: 50px;
+    }
+    .feature .player_pathway_feature p {
+        font-size: 14px;
+        line-height: 23px;
+        margin-top: 10px;
+        text-align: justify;
+    }
+    .learning_game {
+        padding-bottom: 60px;
+        padding-top: 60px;
+    }
+    .learning_game .player_pathway_learning_game p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .learning_game .player_pathway_learning_game .lg-section-5th-content {
+        padding-top: 40px;
+    }
+    .more_about {
+        padding-bottom: 60px;
+    }
+    .more_about .more_about_player_pathway {
+        padding-top: 49px;
+    }
+    .more_about .more_about_player_pathway h1 {
+        font-size: 23px;
+        line-height: 30px;
+    }
+    .more_about .more_about_player_pathway .player-pathway-video {
+        margin-top: 35px;
+    }
+    .strat_journey {
+        padding-bottom: 60px;
+        padding-top: 60px;
+    }
+    .strat_journey .player_pathway_your_journey h1 {
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .strat_journey .player_pathway_your_journey p {
+        font-size: 14px;
+        line-height: 22px;
+        padding-top: 7px;
+        text-align: justify;
+    }
+    /* End :: Player Pathway Page Responsive CSS */
+
+    /* Start :: Learn Camps Page Responsive CSS */
+    .learn_camps {
+        padding-top: 40px;
+    }
+    .learn_camps h5 {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .learn_camps h1 {
+        font-size: 30px;
+        padding-top: 4px;
+    }
+    .learn_camps p {
+        font-size: 14px;
+        padding-top: 4px;
+        text-align: justify;
+    }
+    .learn_camps .register {
+        margin-top: 14px;
+    }
+    .upcoming_camps {
+        padding-bottom: 64px;
+    }
+    .upcoming_camps .learn_camps_title h1 {
+        font-size: 24px;
+        line-height: 21px;
+        padding-top: 56px;
+    }
+    .upcoming_camps .learn_camps_title p {
+        font-size: 14px;
+        line-height: 21px;
+        padding-top: 6px;
+        text-align: justify;
+    }
+    .upcoming_camps .learn_camps_title .upcoming_camps_btn {
+        margin-top: 14px;
+    }
+    .upcoming_camps .learn_camps_img {
+        padding-top: 33px;
+    }
+    .upcoming_camps .learn_camps_img img {
+        max-width: 100%;
+        height: auto;
+    }
+    .testimonial .testimonial_content {
+        padding-top: 65px;
+    }
+    .testimonial .testimonial_content p {
+        font-size: 21px;
+        line-height: 31px;
+    }
+    .cmp_gallery {
+        padding-bottom: 59px;
+    }
+    .cmp_gallery h1 {
+        font-size: 24px;
+        line-height: 15px;
+        padding-top: 64px;
+    }
+    .explr_camps h1 {
+        font-size: 24px;
+        line-height: 29px;
+        padding-top: 53px;
+    }
+    .explr_camps p {
+        font-size: 14px;
+        line-height: 22px;
+        padding-top: 3px;
+    }
+    .explr_camps .view_camps {
+        margin-top: 14px;
+    }
+    .explr_camps {
+        padding-bottom: 54px;
+    }
+    /* End :: Learn Camps Page Responsive CSS */
+
+    /* Start :: About Us Page Responsive CSS */
+    .about-us-banner1 h1 {
+        font-size: 15px;
+        padding-top: 63px;
+    }
+    .about-us-banner1 p {
+        font-size: 24px;
+        line-height: 34px;
+        padding-top: 6px;
+    }
+    .out_history {
+        padding-bottom: 44px;
+    }
+    .out_history h1 {
+        font-size: 24px;
+        line-height: 28px;
+        padding-top: 64px;
+    }
+    .out_history p {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: justify;
+    }
+    .team {
+        padding-top: 50px;
+        padding-bottom: 53px;
+    }
+    .team h1 {
+        font-size: 24px;
+        line-height: 17px;
+    }
+    .team p {
+        font-size: 14px;
+        line-height: 21px;
+        padding-top: 8px;
+    }
+    .team_member_profile .modal-dialog,
+    .foundation_modals .modal-dialog,
+    .donation_modals .modal-dialog{
+        max-width: 96%;
+    }
+    .team_member_profile .modal-body,
+    .foundation_modals .modal-body{
+        padding: 70px 30px;
+    }
+    .team_member_profile .about_us_team_model .about_us_team .member_profile {
+        padding: 0;
+    }
+    .team_member_profile h1,
+    .foundation_modals h1{
+        font-size: 18px;
+        line-height: 16px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .team_member_profile h3 {
+        font-size: 14px;
+        line-height: 15px;
+        margin-top: 13px;
+        text-align: center;
+    }
+    .team_member_profile p,
+    .foundation_modals p{
+        font-size: 14px;
+        line-height: 21px;
+        margin-top: 15px;
+        text-align: justify;
+    }
+    .foundation {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .foundation h1 {
+        font-size: 24px;
+        line-height: 11px;
+    }
+    .foundation p {
+        font-size: 14px;
+        line-height: 22px;
+        margin-top: 14px;
+        text-align: justify;
+    }
+    .foundation_modals .foundation_netflix_short_game .about_us_team .view_documentary_btn .view_documentary {
+        width: 100%;
+    }
+    .donation {
+        padding-top: 47px;
+        padding-bottom: 54px;
+    }
+    .donation .donation_content {
+        padding-top: 0;
+    }
+    .donation p {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: justify;
+    }
+    .donation .donation_content .founder_detail .donate_btn_class p {
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+    .donation_modals .modal-body {
+        padding: 80px 57px;
+    }
+    .about_us_contact_section .contact-us {
+        margin-top: 56px;
+    }
+    .about_us_contact_section .contact-us h1 {
+        font-size: 24px;
+        line-height: 21px;
+    }
+    .about_us_contact_section .contact-us p {
+        font-size: 14px;
+        line-height: 21px;
+        text-align: justify;
+    }
+    .about_us_contact_section .contact-us .contact_us {
+        margin-top: 10px;
+    }
+    .about_us_contact_section .email_address {
+        margin-top: 59px;
+    }
+    /* End :: About Us Page Responsive CSS */
+
+    /* Start :: USKG golf professional Page Responsive CSS */
+    .golf_professional h5 {
+        font-size: 14px;
+        line-height: 14px;
+        padding-top: 59px;
+    }
+    .golf_professional h1 {
+        font-size: 39px;
+        line-height: 38px;
+        padding-top: 4px;
+    }
+    .golf_professional p {
+        font-size: 14px;
+        line-height: 22px;
+        padding-top: 4px;
+    }
+    .golf_professional_2nd_sec ul {
+         margin-left: 0;
+        padding: 0;
+    }
+    .get_certified {
+        padding-bottom: 54px;
+    }
+    .get_certified .get_certified_text {
+        padding-top: 55px;
+    }
+    .get_certified .get_certified_text h1 {
+        font-size: 25px;
+        line-height: 21px;
+    }
+    .get_certified .get_certified_text p {
+         font-size: 14px;
+         line-height: 22px;
+         padding-top: 11px;
+         text-align: justify;
+     }
+    .get_certified .get_certified_text .learn_more_btn {
+        margin-top: 14px;
+    }
+    .get_certified .get_certified_img {
+        padding-top: 44px;
+    }
+    .benefits_certifying {
+        padding-bottom: 44px;
+    }
+    .benefits_certifying h1 {
+        font-size: 24px;
+        line-height: 11px;
+        padding-top: 50px;
+    }
+    .benefits_certifying p {
+        font-size: 14px;
+        line-height: 22px;
+        padding-top: 13px;
+    }
+    .benefits_certifying .benefits {
+        padding-top: 0px;
+    }
+    .resources h1 {
+        font-size: 25px;
+        line-height: 11px;
+        padding-top: 46px;
+    }
+    .resources .resources_content .resource_image {
+        height: auto;
+    }
+    .any_question h1 {
+        font-size: 24px;
+        line-height: 11px;
+        padding-top: 51px;
+    }
+    .any_question h1 {
+        font-size: 22px;
+        line-height: 7px;
+        padding-top: 40px;
+    }
+    .any_question p {
+        font-size: 14px;
+        line-height: 22px;
+        padding-top: 10px;
+        text-align: justify;
+    }
+    .any_question .golf_professional_contact_us {
+        margin-top: 10px;
+    }
+    .any_question {
+        padding-bottom: 44px;
+    }
+    /* End :: USKG golf professional Page Responsive CSS */
+
+    /* Start :: USKG golf professional player pathway Page Responsive CSS */
+    .gp_player_pathway h5 {
+        font-size: 14px;
+        line-height: 8px;
+        padding-top: 61px;
+    }
+    .gp_player_pathway h1 {
+        font-size: 29px;
+        line-height: 31px;
+        padding-top: 7px;
+    }
+    .gp_player_pathway p {
+        font-size: 14px;
+        line-height: 21px;
+        padding-top: 5px;
+    }
+    .gp_player_pathway .play_video {
+         margin-top: 10px;
+    }
+    .gp_player_pathway_2nd_sec {
+        height: auto;
+    }
+    .gp_player_pathway_2nd_sec .gp_player_pathway_text ul {
+         display: block;
+        margin-left: 0;
+        padding: 0;
+    }
+    .gp_player_pathway_2nd_sec li::after {
+        display: none;
+    }
+    .gp_player_pathway_2nd_sec .gp_player_pathway_text li {
+        line-height: 37px;
+    }
+    .gp_about_player_pathway {
+        padding-top: 55px;
+        padding-bottom: 55px;
+    }
+    .gp_about_player_pathway .gp_about_player_pathway_content h1 {
+        font-size: 22px;
+        line-height: 20px;
+        margin-top: 40px;
+    }
+    .gp_about_player_pathway .content p {
+        font-size: 14px;
+        line-height: 21px;
+        text-align: justify;
+    }
+    .feature {
+        margin-top: 30px;
+        padding-bottom: 30px;
+    }
+    .feature h1 {
+        font-size: 24px;
+        line-height: 18px;
+    }
+    .feature p {
+        font-size: 14px;
+        line-height: 22px;
+        padding-top: 0;
+    }
+    .feature .feature_cards .card-mobile{
+        padding-bottom: 20px;
+    }
+    .player_pathway_app {
+        padding-bottom: 55px;
+        padding-top : 16px;
+    }
+    .player_pathway_app .app_content {
+        margin-top: 25px;
+    }
+    .player_pathway_app .app_content h1 {
+        font-size: 24px;
+        line-height: 10px;
+    }
+    .player_pathway_app .app_points {
+        font-size: 14px;
+        line-height: 22px;
+        padding-bottom: 0;
+    }
+    .player_pathway_app .app_image {
+        padding-top: 30px;
+    }
+    .gp_player_pathway_testimonial .testimonial_content {
+        padding-top: 30px;
+    }
+    .gp_player_pathway_testimonial .testimonial_content p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .explore_further {
+        margin-top: 59px;
+        margin-bottom: 59px;
+    }
+    .explore_further h1 {
+        font-size: 24px;
+        line-height: 25px;
+    }
+    .golf_professional_package h3 {
+        font-size: 14px;
+        line-height: 20px;
+        padding-top: 90px;
+    }
+    .golf_professional_package h1 {
+        font-size: 40px;
+        line-height: 48px;
+        padding-top: 5px;
+    }
+    .golf_professional_package p {
+        font-size: 14px;
+        line-height: 23px;
+        padding-top: 3px;
+        text-align: justify;
+    }
+    .available_kit {
+        padding-top: 42px;
+        padding-bottom: 50px;
+    }
+    .available_kit h1 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .available_kit p {
+        font-size: 14px;
+        line-height: 22px;
+        margin-top: 6px;
+    }
+    .available_kit .available_kit_image {
+        padding-top: 30px;
+    }
+    .available_kit .available_kit_content h1 {
+        font-size: 23px;
+        line-height: 20px;
+        margin-top: 30px;
+    }
+    .available_kit .available_kit_content h3 {
+        font-size: 18px;
+        line-height: 28px;
+        padding-top: 5px;
+    }
+    .available_kit .available_kit_content p {
+        font-size: 14px;
+        line-height: 23px;
+        padding-top: 0;
+    }
+    .suggested_qty {
+        margin-top: 30px;
+    }
+    .suggested_qty h1 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .suggested_qty .level_images {
+        margin-top: 23px;
+    }
+    /* End :: USKG golf professional player pathway Page Responsive CSS */
+
+    /* Start :: USKG golf professional get certified Page Responsive CSS */
+    .gp_get_certified h3 {
+        font-size: 14px;
+        line-height: 10px;
+        padding-top: 81px;
+    }
+    .gp_get_certified h1 {
+        font-size: 39px;
+        line-height: 48px;
+        padding-top: 6px;
+    }
+    .gp_get_certified p {
+        font-size: 14px;
+        line-height: 23px;
+        padding-top: 3px;
+        text-align: justify;
+    }
+    .gp_get_certified_2nd_sec ul {
+        padding: 0;
+    }
+    .gp_get_certified_3rd_sec {
+        padding: 51px 0px 50px 0px;
+    }
+    .gp_get_certified_3rd_sec h1 {
+        font-size: 25px;
+        line-height: 21px;
+    }
+    .gp_get_certified_3rd_sec .get_certified_points .certified_points {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: justify;
+    }
+    .gp_get_certified_3rd_sec .get_certified_mobile {
+        padding-top: 30px;
+    }
+    .maximize_certification {
+        padding: 52px 0px 54px 0px;
+    }
+    .maximize_certification h1 {
+        font-size: 24px;
+        line-height: 30px;
+        margin-top: 30px;
+    }
+    .maximize_certification .maximize_certification_points .certified_points {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: justify;
+    }
+    .maximize_certification .all_certification {
+        margin-top: 12px;
+    }
+    .our_trainer {
+        padding: 52px 0px 50px 0px;
+    }
+    .our_trainer h1 {
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .our_trainer p {
+        font-size: 14px;
+        line-height: 22px;
+        margin-top: 6px;
+    }
+    .our_trainer .trainer_image_content {
+        padding-top: 40px;
+    }
+    .our_trainer .trainer_image_content h1 {
+        font-size: 23px;
+        line-height: 20px;
+        margin-top: 30px;
+    }
+    .our_trainer .trainer_image_content .trainer_content {
+        font-size: 14px;
+        line-height: 23px;
+        text-align: justify;
+        margin-top: 25px;
+    }
+    .available_certificate h1 {
+        font-size: 24px;
+        line-height: 21px;
+    }
+    .available_certificate p {
+        font-size: 14px;
+        line-height: 22px;
+        margin-top: 10px;
+    }
+    .available_certificate .certificate_btn {
+        margin-top: 15px;
+    }
+    .maximize_certification .maximize_certification_content {
+        padding-left: 0px;
+    }
+    /* End :: USKG golf professional get certified Page Responsive CSS */
+}
+
+@media (min-width: 768px ) and (max-width: 1024px ){
+    .text-center-mobile{
+        text-align: center !important;
+    }
+    .navbar-brand{
+        height: 50px;
+    }
+    .logo-img {
+        margin-top: 0;
+    }
+    .navbar-brand img{
+        width: 100%;
+        height: 100%;
+    }
+    .header-menu {
+        padding-top: 30px;
+    }
+    /* Start :: Home Page Responsive CSS */
+    .mission .home-section-2 {
+        margin: 35px 0px;
+    }
+    .mission .home-section-2-image {
+        margin: 0px 0px;
+    }
+    .mission .home-section-2-image img{
+        width: 100%;
+        height: auto;
+    }
+    .home-page-banner1 .text-block .banner-text2 {
+        font-size: 24px;
+    }
+    .QuickLinks {
+        padding-bottom: 72px;
+    }
+    .QuickLinks .section-3-quicklink {
+        text-align: center;
+        padding-top: 40px;
+    }
+    .QuickLinks .section-3-quicklink .quick_link_cards h5 {
+        font-size: 18px;
+        margin-top: 29px;
+        line-height: 20px;
+    }
+    .home-section-4 {
+        padding-bottom: 50px;
+        margin-top: 50px;
+    }
+    /* End :: Home Page Responsive CSS */
+
+    /* Start :: Learn Page Responsive CSS */
+    .learn-banner-image1 .section1-banner-image h4 {
+        padding-top: 50px;
+    }
+    .learn-banner-image1 .section1-banner-image h1 {
+        font-size: 45px;
+        line-height: 48px;
+    }
+    .learn-banner-image1 .section1-banner-image p {
+        margin-top: 10px;
+    }
+    .player-pathway .section2-player-pathway .player-pathway-image {
+        width: 100%;
+        height: auto;
+    }
+    .player-pathway .section2-player-pathway {
+        margin-top: 57px;
+    }
+    .national-parents {
+        margin-top: 54px;
+    }
+    .national-parents .national-parents-text h1 {
+        font-size: 23px;
+        line-height: 21px;
+        padding-top: 120px;
+    }
+    .Longleaf {
+        padding: 0px 0px 50px 0px;
+    }
+    .Longleaf .Longleaf-tee .lltf-image {
+        margin-top: 89px;
+    }
+    .Longleaf .Longleaf-tee .lltf-text {
+        margin-top: 57px;
+        margin-left: 0;
+    }
+    .Longleaf .Longleaf-tee .lltf-text p {
+        font-size: 14px;
+        line-height: 22px;
+        margin-top: 5px;
+        text-align: justify;
+    }
+    .equipment {
+        padding-bottom: 62px;
+    }
+    .equipment .equipment-overview h1 {
+        padding-top: 56px;
+        font-size: 25px;
+        line-height: 21px;
+    }
+    .further-question {
+        padding: 0px 0px 60px 0px;
+    }
+    .further-question .any-further-question h1 {
+        font-size: 25px;
+        line-height: 21px;
+        padding-top: 60px;
+    }
+    .home-section-4 .thumbnail img {
+        width: 100%;
+        height: auto;
+    }
+    .home-section-4 .section-4 .section-4-content {
+        margin-top: 0px;
+    }
+    /* End :: Learn Page Responsive CSS */
+
+    /* Start :: Learn Player Pathway Page Responsive CSS */
+    .player_pathway .player_pathway_banner_content h5 {
+        font-size: 14px;
+        line-height: 11px;
+        padding-top: 51px;
+    }
+    .player_pathway .player_pathway_banner_content h1 {
+        font-size: 36px;
+        line-height: 38px;
+        padding-top: 7px;
+    }
+    .player_pathway .player_pathway_banner_content .play_video {
+        margin-top: 14px;
+    }
+    .feature {
+        margin-top: 57px;
+    }
+    .feature .player_pathway_feature p {
+        font-size: 14px;
+        line-height: 23px;
+        margin-top: 0;
+    }
+    .feature .player_pathway_feature .player_pathway_feature_cards .feature_card_text {
+        min-height: 160px;
+    }
+    .feature .player_pathway_feature .player_pathway_feature_cards h5 {
+        font-size: 17px;
+        line-height: 23px;
+        padding-top: 30px;
+    }
+    .learning_game {
+        padding-bottom: 60px;
+        padding-top: 53px;
+    }
+    .learning_game .player_pathway_learning_game h1 {
+        font-size: 24px;
+        line-height: 20px;
+    }
+    .learning_game .player_pathway_learning_game p {
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .more_about {
+        padding-bottom: 57px;
+    }
+    .more_about .more_about_player_pathway {
+        padding-top: 59px;
+    }
+    .more_about .more_about_player_pathway .player-pathway-video{
+        margin-top: 30px;
+    }
+    .more_about .more_about_player_pathway h1 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .strat_journey {
+        padding-bottom: 40px;
+        padding-top: 45px;
+    }
+    .strat_journey .player_pathway_your_journey h1 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .strat_journey .player_pathway_your_journey .btn {
+        margin-top: 20px;
+    }
+    /* End :: Learn Player Pathway Page Responsive CSS */
+
+    /* Start :: Learn Camp Page Responsive CSS */
+    .learn_camps h5 {
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .learn_camps h1 {
+        font-size: 35px;
+        padding-top: 0px;
+    }
+    .learn_camps .register {
+        margin-top: 13px;
+    }
+    .upcoming_camps .learn_camps_title h1 {
+        font-size: 24px;
+        line-height: 28px;
+        padding-top: 127px;
+    }
+    .upcoming_camps .learn_camps_title p {
+        font-size: 14px;
+        line-height: 23px;
+        padding-top: 8px;
+    }
+    .upcoming_camps .learn_camps_img img {
+        max-width: 100%;
+        height: auto;
+    }
+    .testimonial .testimonial_content {
+        padding-top: 63px;
+    }
+    .testimonial .testimonial_content p {
+        font-size: 22px;
+        line-height: 35px;
+    }
+    .cmp_gallery {
+        padding-bottom: 59px;
+    }
+    .cmp_gallery h1 {
+         font-size: 24px;
+         line-height: 27px;
+         padding-top: 64px;
+    }
+    .explr_camps h1 {
+        font-size: 24px;
+        line-height: 21px;
+        padding-top: 53px;
+    }
+    .explr_camps p {
+        font-size: 14px;
+        line-height: 22px;
+        padding-top: 6px;
+    }
+    .explr_camps {
+        padding-bottom: 54px;
+    }
+    .explr_camps .view_camps {
+        margin-top: 14px;
+    }
+    /* End :: Learn Camp Page Responsive CSS */
+
+    /* Start :: About Us Page Responsive CSS */
+    .about-us-banner1 p {
+        font-size: 25px;
+        line-height: 35px;
+        padding-top: 8px;
+    }
+    .out_history {
+        padding-bottom: 54px;
+    }
+    .out_history h1 {
+        font-size: 24px;
+        line-height: 11px;
+        padding-top: 64px;
+    }
+    .out_history p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .team {
+        padding-top: 50px;
+        padding-bottom: 35px;
+    }
+    .team h1 {
+        font-size: 25px;
+        line-height: 16px;
+    }
+    .team p {
+        font-size: 14px;
+        line-height: 22px;
+        padding-top: 8px;
+    }
+    .team .our_team h2 {
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 10px;
+        margin-bottom: 4px;
+    }
+    .foundation .foundation_image_text .foundation_activity .foundation_title {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .team_member_profile .modal-dialog,
+    .foundation_modals .modal-dialog {
+        max-width: 96%;
+    }
+    .team_member_profile .modal-body,
+    .foundation_modals .modal-body{
+        padding: 80px 25px;
+    }
+    .foundation {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .foundation h1 {
+        font-size: 24px;
+        line-height: 21px;
+    }
+    .foundation p {
+        font-size: 14px;
+        line-height: 22px;
+        margin-top: 14px;
+    }
+    .foundation_modals p {
+        font-size: 14px;
+        line-height: 23px;
+        margin-top: 9px;
+        text-align: justify;
+    }
+    .foundation_modals .foundation_netflix_short_game .about_us_team .view_documentary_btn .view_documentary {
+        width: 100%;
+    }
+    .donation {
+        padding-top: 57px;
+        padding-bottom: 54px;
+    }
+    .donation p {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: justify;
+    }
+    .donation .donation_content .founder_detail .donate_btn_class p {
+        padding-left: 80px;
+    }
+    .about_us_contact_section .email_address .keep_touch ul li {
+        font-size: 14px;
+        line-height: 23px;
+        padding-left: 12px;
+    }
+    .about_us_contact_section .contact-us h1 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .about_us_contact_section .contact-us p {
+        font-size: 14px;
+        line-height: 22px;
+        margin-top: 10px;
+    }
+    .about_us_contact_section .contact-us .contact_us {
+        margin-top: 10px;
+    }
+    /* End :: About Us Page Responsive CSS */
+
+    /* Start :: Golf Professional Page Responsive CSS */
+    .golf_professional h5 {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .golf_professional h1 {
+        font-size: 40px;
+        line-height: 48px;
+        padding-top: 5px;
+    }
+    .golf_professional p {
+        font-size: 14px;
+        line-height: 22px;
+        padding-top: 4px;
+        text-align: justify;
+    }
+    .golf_professional_2nd_sec ul {
+        margin-left: 0;
+        padding: 0;
+    }
+    .get_certified .get_certified_text {
+        padding-top: 135px;
+    }
+    .get_certified {
+        padding-bottom: 60px;
+    }
+    .benefits_certifying {
+        padding-bottom: 54px;
+    }
+    .benefits_certifying h1 {
+        font-size: 23px;
+        line-height: 21px;
+        padding-top: 60px;
+    }
+    .benefits_certifying p {
+        font-size: 14px;
+        line-height: 23px;
+        padding-top: 6px;
+    }
+    .benefits_certifying .benefits {
+        padding-top: 10px;
+    }
+    .benefits_certifying .benefits .benefit_points {
+        padding-top: 0px;
+        text-align: justify;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .resources {
+        padding-bottom: 60px;
+    }
+    .resources .resources_content .resource_image {
+        height: auto;
+    }
+    .resources h1 {
+        font-size: 24px;
+        line-height: 21px;
+        padding-top: 46px;
+    }
+    .any_question {
+        padding-bottom: 64px;
+    }
+    .any_question h1 {
+        font-size: 24px;
+        line-height: 21px;
+        padding-top: 61px;
+    }
+    /* End :: Golf Professional Page Responsive CSS */
+
+    /* Start :: Golf Professional Player Pathway Page Responsive CSS */
+    .gp_player_pathway h5 {
+        font-size: 14px;
+        line-height: 24px;
+        padding-top: 58px;
+    }
+    .gp_player_pathway h1 {
+        font-size: 30px;
+        line-height: 28px;
+    }
+    .gp_player_pathway p {
+        font-size: 14px;
+        line-height: 22px;
+        padding-top: 5px;
+    }
+    .gp_player_pathway_2nd_sec {
+        height: auto;
+    }
+    .gp_player_pathway_2nd_sec .gp_player_pathway_text ul {
+        padding: 0;
+        display: block;
+    }
+    .gp_player_pathway_2nd_sec li::after {
+        display: none;
+    }
+    .gp_player_pathway_2nd_sec .gp_player_pathway_text li {
+        line-height: 40px;
+    }
+
+    .gp_about_player_pathway {
+        padding-top: 85px;
+        padding-bottom: 50px;
+    }
+    .gp_about_player_pathway .gp_about_player_pathway_content h1 {
+        font-size: 20px;
+        line-height: 21px;
+    }
+    .gp_player_pathway_testimonial .testimonial_content p {
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .gp_about_player_pathway .content p {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: justify;
+    }
+    .feature {
+        margin-top: 37px;
+    }
+    .feature h1 {
+        font-size: 24px;
+        line-height: 21px;
+    }
+    .feature p {
+        font-size: 14px;
+        line-height: 22px;
+        padding-top: 6px;
+    }
+    .feature .feature_cards .gp_player_pathway_card_text h5 {
+        margin-top: 18px;
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .feature .feature_cards .gp_player_pathway_card_text p {
+        margin-top: 6px;
+        font-size: 14px;
+        line-height: 22px;
+        min-height: 150px;
+    }
+    .player_pathway_app .app_content {
+        margin-top: 53px;
+    }
+    .player_pathway_app .app_content h1 {
+        font-size: 24px;
+        line-height: 21px;
+    }
+    .player_pathway_app .app_content p {
+        font-size: 14px;
+        line-height: 22px;
+        padding-top: 5px;
+    }
+    .player_pathway_app .app_points {
+        font-size: 14px;
+        line-height: 22px;
+        padding-left: 30px;
+    }
+    /* End :: Golf Professional Player Pathway Page Responsive CSS */
+
+    /* Start :: Golf Professional Packages Responsive CSS */
+    .available_kit {
+        padding-top: 52px;
+        padding-bottom: 53px;
+    }
+    .golf_professional_package h3 {
+        font-size: 14px;
+        line-height: 18px;
+        padding-top: 61px;
+    }
+    .golf_professional_package h1 {
+        font-size: 38px;
+        line-height: 48px;
+        padding-top: 4px;
+    }
+    .golf_professional_package p {
+        font-size: 14px;
+        line-height: 23px;
+        padding-top: 3px;
+        text-align: justify;
+    }
+    .available_kit .available_kit_image {
+        width: 100%;
+    }
+    .available_kit .available_kit_content h1 {
+        padding-top: 30px;
+    }
+    .suggested_qty {
+        margin-top: 50px;
+    }
+    .suggested_qty h1 {
+        font-size: 24px;
+        line-height: 21px;
+    }
+    .suggested_qty .contact_us {
+        margin-top: 36px;
+    }
+    /* End :: Golf Professional Packages Responsive CSS */
+
+    /* Start :: Golf Professional Get Certified Responsive CSS */
+    .gp_get_certified h3 {
+        font-size: 14px;
+        line-height: 18px;
+        padding-top: 51px;
+    }
+    .gp_get_certified h1 {
+        font-size: 38px;
+        line-height: 48px;
+        padding-top: 4px;
+    }
+    .gp_get_certified p {
+        font-size: 14px;
+        line-height: 21px;
+        padding-top: 4px;
+        text-align: justify;
+    }
+    .gp_get_certified_2nd_sec ul {
+        padding: 0;
+    }
+    .gp_get_certified_3rd_sec {
+        padding: 51px 0px 50px 0px;
+    }
+    .gp_get_certified_3rd_sec h1 {
+        font-size: 24px;
+        line-height: 20px;
+    }
+    .gp_get_certified_3rd_sec .get_certified_points .certified_points {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .maximize_certification {
+        padding: 51px 0px 50px 0px;
+    }
+    .maximize_certification h1 {
+        font-size: 22px;
+        line-height: 22px;
+    }
+    .maximize_certification .maximize_certification_points .certified_points {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: justify;
+    }
+    .maximize_certification .all_certification {
+        margin-top: 25px;
+    }
+    .our_trainer {
+        padding: 52px 0px 55px 0px;
+    }
+    .our_trainer h1 {
+        font-size: 24px;
+        line-height: 11px;
+    }
+    .our_trainer p {
+        font-size: 14px;
+        line-height: 22px;
+        margin-top: 14px;
+    }
+    .our_trainer .trainer_image_content h1 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .our_trainer .trainer_image_content .trainer_content {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: justify;
+    }
+    .our_trainer .trainer_image_content {
+        padding-top: 71px;
+    }
+    .available_certificate {
+        padding: 50px 0px 50px 0px;
+    }
+    .available_certificate h1 {
+        font-size: 24px;
+        line-height: 25px;
+    }
+    .available_certificate p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 12px;
+    }
+    .available_certificate .certificate_btn {
+        margin-top: 10px;
+    }
+    .maximize_certification .maximize_certification_content {
+        padding-left: 0px;
+    }
+    /* End :: Golf Professional Get Certified Responsive CSS */
+}

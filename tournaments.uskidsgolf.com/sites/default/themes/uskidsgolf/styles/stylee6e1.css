@@ -1,0 +1,1035 @@
+/**
+ * Generic elements
+ */
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+
+}
+
+input {
+  font: 1em/100% Verdana, sans-serif;
+  color: #494949;
+}
+
+textarea,
+select {
+  font: 1em/160% Verdana, sans-serif;
+  color: #494949;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /*margin: 0;*/
+  /*padding: 0;*/
+  /*font-weight: normal;*/
+
+}
+
+
+quote,
+code,
+fieldset {
+  margin: .5em 0;
+}
+
+code,
+pre,
+kbd {
+  font-size: 115%;
+}
+
+p {
+  margin: 0.6em 0 1.2em;
+  padding: 0;
+}
+
+a:link,
+a:visited {
+  color: #027AC6;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0062A0;
+  text-decoration: underline;
+}
+
+a:active,
+a.active {
+  color: #5895be;
+}
+
+hr {
+  margin: 0;
+  padding: 0;
+  border: none;
+  height: 1px;
+  background: #5294c1;
+}
+
+ul,
+.block ul,
+ol {
+  margin: 0.5em 0 1em;
+  padding: 0 0 0 1.5em; /* LTR */
+}
+
+/* Default to menu leaf bullet for unordered list items. "ul" used here so it can cascade to list items and "li.leaf" to override the system leaf image. */
+ul,
+ul li.leaf {
+  list-style-image: url('../images/menu-leaf.gif');
+}
+
+/* This is used to cancel the list style image when an ordered list is embedded in an unordered list. */
+ol {
+  list-style-image: none;
+}
+
+ul.menu,
+.item-list ul {
+  margin: 0.35em 0 0 -0.5em; /* LTR */
+}
+
+ol li,
+ul li,
+ul.menu li,
+.item-list ul li,
+li.leaf {
+  margin: 0.15em 0 0.15em .5em; /* LTR */
+  padding-bottom: .1em;
+}
+
+ul li.expanded {
+  list-style-image: url("../images/menu-expanded.gif");
+}
+
+ul li.collapsed {
+  list-style-image: url("../images/menu-collapsed.gif"); /* LTR */
+}
+
+ul li.leaf a,
+ul li.expanded a,
+ul li.collapsed a {
+  display: block;
+}
+
+ul.inline li {
+  background: none;
+  margin: 0;
+  padding: 0 1em 0 0; /* LTR */
+}
+
+ol.task-list {
+  margin-left: 0; /* LTR */
+  list-style-type: none;
+  list-style-image: none;
+}
+ol.task-list li {
+  padding: 0.5em 1em 0.5em 2em; /* LTR */
+}
+ol.task-list li.active {
+  background: transparent url("../images/task-list.png") no-repeat 3px 50%; /* LTR */
+}
+ol.task-list li.done {
+  color: #393;
+  background: transparent url("../../../../../misc/watchdog-ok.png") no-repeat 0 50%; /* LTR */
+}
+ol.task-list li.active {
+  margin-right: 1em; /* LTR */
+}
+
+fieldset ul.clearfix li {
+  margin: 0;
+  padding: 0;
+  background-image: none;
+}
+
+dl {
+  margin: 0.5em 0 1em 1.5em; /* LTR */
+}
+
+dl dt {
+}
+
+dl dd {
+  margin: 0 0 .5em 1.5em; /* LTR */
+}
+
+img,
+a img {
+  border: none;
+}
+
+table {
+  margin: 1em 0;
+  width: 100%;
+}
+
+thead th {
+  border-bottom: 2px solid #d3e7f4;
+  color: #494949;
+  font-weight: bold;
+}
+
+th a:link,
+th a:visited {
+  color: #6f9dbd;
+}
+
+td,
+th {
+  padding: .3em .5em;
+}
+
+tr.even,
+tr.odd,
+tbody th {
+  border: solid #d3e7f4;
+  border-width: 1px 0;
+}
+
+tr.odd,
+tr.info {
+  background-color: #edf5fa;
+}
+
+tr.even {
+  background-color: #fff;
+}
+
+tr.drag {
+  background-color: #ffb;
+}
+
+tr.drag-previous {
+  background-color: #ffd;
+}
+
+tr.odd td.active {
+  background-color: #ddecf5;
+}
+
+tr.even td.active {
+  background-color: #e6f1f7;
+}
+
+td.region-title,
+td.module,
+td.container,
+td.category {
+  border-top: 1.5em solid #fff;
+  border-bottom: 1px solid #b4d7f0;
+  background-color: #d4e7f3;
+  color: #455067;
+  font-weight: bold;
+}
+
+tr:first-child td.region-title,
+tr:first-child td.module,
+tr:first-child td.container,
+tr:first-child td.category {
+  border-top-width: 0;
+}
+
+span.form-required {
+  color: #ffae00;
+}
+
+.submitted, .description,
+.vertical-tab-button .summary {
+  font-size: 0.92em;
+  color: #898989;
+}
+
+.description .more-help-link {
+  font-size: 0.92em;
+}
+
+.description {
+  line-height: 150%;
+  margin-bottom: 0.75em;
+  color: #898989;
+}
+
+.preview {
+  margin: .75em 0 .75em;
+  padding: .5em 1em;
+}
+
+.form-checkboxes,
+.form-radios,
+.form-checkboxes .form-item,
+.form-radios .form-item {
+  margin: 0.25em 0;
+}
+
+#center form {
+  /*margin-bottom: 1em;*/
+}
+
+.form-actions {
+  margin: 2em 0 1em;
+}
+
+.form-button,
+.form-submit {
+  margin: 0 0.5em 0 0; /* LTR */
+}
+/*
+main custom items
+*/
+body.uskg_main{
+  /*background-image: url("../images/background.jpg");*/
+}
+body.uskg_coach {
+  /*background:url("../images/background_coaches.jpg") top repeat-x;*/
+}
+body.uskg_play {
+  /*background:url("../images/background_play-and-learn.jpg") top repeat-x;*/
+}
+body.uskg_tournaments{
+  /*background:url("../images/background_tournaments.jpg") top repeat-x;*/
+}
+body.uskg_play .region-footer,
+body.uskg_tournaments .region-footer{
+  color:black;
+}
+body.uskg_play #header a,
+body.uskg_tournaments #header a, 
+body.uskg_coach #header a{
+  color: #444444;
+}
+  #wrapper{
+    /*width: 960px;*/
+    /*margin:0px auto 0px auto;*/
+    /*position:relative;*/
+  }
+    /*
+    Header and Header items
+    */
+    #header{
+      position: relative;
+      background: transparent;
+    }
+      #header #logo-floater{
+        float:left;
+      }
+      #header #main-menu, #header #user-menu{
+        padding:5px 0 0 0;
+        float:right;
+      }
+      #header #main-menu ul li,
+      #header #user-menu ul li{
+        border-right: 1px solid rgba(255, 255, 255, 0.4);
+        margin:0;
+        padding: 0 11px;
+        font-size: 11px;
+        line-height: 18px;
+        text-transform: uppercase;
+      }
+      #header #user-menu ul .last {
+        border-right: none;
+      }
+      #header #block-user-login{
+        float:right;
+        clear:right;
+      }
+      #block-user-login .content {
+        overflow: hidden;
+      }
+      #header #block-user-login .form-item,
+      #header #block-user-login .form-actions{
+        float: left;
+        margin:5px 0 0 0 !important;
+      }
+      #header #block-user-login h2{
+        color:white;
+        float:left;
+        margin:4px 10px 0px 0px;
+        font-size:1.2em;
+        color: #fff;
+      }
+      .uskg_main #header #block-user-login h2{
+        color: #900000;
+      }
+      #header #block-user-login #edit-name,
+      #header #block-user-login #edit-pass {
+        float:left;
+        margin-right:5px;
+        height:17px;
+
+        padding:2px 0px 2px 5px;
+        font-size:0.80em
+      }
+      #header #block-user-login #edit-submit{
+        margin:0; 
+        padding:0;
+        border:1px solid #999999;
+        height:25px;
+        width:50px;
+        font-size:0.80em
+      }
+      #header #block-user-login label,
+      #header #block-user-login .item-list,
+      #header #block-user-login .form-required,
+      #header #block-user-login .edit-actions{
+        display:none;
+      }
+      
+    /*
+    main content layout
+    */
+    #content{
+      color: #494949;
+      background:#fff;
+
+    }
+    .not-front #content{
+
+    }
+
+      .sidebar{ /* both sidebars need to look the same */
+        z-index:10;
+        position:relative;
+        float:left;
+        width:206px;
+        padding-bottom:3em;
+        position:relative;
+      }
+      #sidebar-right{
+        width:293px;
+      }
+      /*
+      center content area and squeeze 
+      */
+      #center,
+      #squeeze{
+        position:relative;
+      }
+      .two-sidebars #center{
+        margin-left: -206px;
+        margin-right:-293px;
+        float:left;
+        width:100%;
+      }
+      .two-sidebars #center #squeeze{
+        margin:0px 206px;
+        padding:0em 1em 3em 1em;
+      }
+      
+      .sidebar-fist #center{
+        margin-left:-206px;
+        float:left;
+        width:100%;
+      }
+      .sidebar-first #center #squeeze{
+        margin-left:206px;
+        padding:0 1em 3em 16px;
+      }
+      .sidebar-second #center{
+        margin-right:-293px;
+        float:left;
+        width:100%;
+      }
+      .sidebar-second #center #squeeze{
+        margin-right:293px;
+        /*padding:0 0 3em 0px;*/
+      }
+      /*  center with no sidebars*/
+      /*.no-sidebars #center{*/
+        /*padding: 0 12px 1.5em;*/
+      /*}*/
+      /*body.front.no-sidebars #center{*/
+        /*padding:0.5em 0px 1.5em 0px !important;*/
+      /*}*/
+      /*.no-sidebars #center #squeeze{*/
+        /*padding: 0 1em 1em;*/
+      /*}*/
+      .breadcrumb{
+        /*display:none;*/
+      }
+      #content h1{
+        font-weight:bold;
+        color:#498A13;
+        /*font-size:1.3em;*/
+        background:#ECEAEF;
+        background-clip: padding-box;
+        -webkit-border-radius: 7px;
+        border-radius: 7px;
+        padding-left:10px;
+      }
+      .uskg_play #content h1{
+        color:#3F8DE6;
+      }
+      #highlighted{
+        position: relative;
+      }
+      .tabs{
+        font-size:0.7em;
+      }
+    /* 
+    footer area and blocks 
+    */
+    .region-footer{
+      clear:both;
+      font-size:0.70em
+    }
+
+
+#block-block-1{
+  clear:both;
+  padding:0px !important;
+}
+#block-block-1 img{
+  margin:0px 0px -3px 0px;
+  background-clip: padding-box;
+  -webkit-border-radius: 13px 13px 0 0;
+  border-radius: 13px 13px 0 0;
+}
+#block-block-1 p{
+  margin:0px;
+  padding:0px;
+}
+#views_slideshow_cycle_teaser_section_play_and_learn_slideshow-block a img,
+#views_slideshow_cycle_teaser_section_tournament_slideshow-block a img{
+  display:block;
+  background-clip: padding-box;
+  -webkit-border-radius: 10px 0 0 10px;
+  border-radius: 10px 0 0 10px;
+}
+/* style changes for the video list */
+#block-views-7261ac0f52772be44b36fadbf9fd3a4c:before,
+#block-views-tournament-slideshow-block-1:before{
+  content:url('../images/views-video-list-header.jpg');
+  height:60px;
+  display:block;
+  background-clip: padding-box;
+  -webkit-border-radius: 0 10px 0 0;
+  border-radius:0 10px 0 0;
+  overflow:hidden;
+}
+#block-views-7261ac0f52772be44b36fadbf9fd3a4c:after,
+#block-views-tournament-slideshow-block-1:after{
+  content:'';
+  background:#253600;
+  height:12px;
+  width:291px;
+  display:block;
+  visibility:visible;
+  border-top:1px solid #555;
+  background-clip: padding-box;
+  -webkit-border-radius: 0 0 10px 0;
+  border-radius:0 0 10px 0;
+  overflow:hidden;
+}
+#block-views-7261ac0f52772be44b36fadbf9fd3a4c .view-content,
+#block-views-tournament-slideshow-block-1 .view-content{
+  height:257px;
+  width:291px;
+  overflow:auto;
+  margin:0px !important;
+}
+#block-views-7261ac0f52772be44b36fadbf9fd3a4c .view-content ul,
+#block-views-7261ac0f52772be44b36fadbf9fd3a4c .view-content ul li,
+#block-views-tournament-slideshow-block-1 .view-content ul,
+#block-views-tournament-slideshow-block-1 .view-content ul li{
+  margin:0;
+  padding:0;
+}
+#block-views-7261ac0f52772be44b36fadbf9fd3a4c .view-content ul li a,
+#block-views-tournament-slideshow-block-1 .view-content ul li a{
+  list-style-image: none;
+  list-style-type: none;
+  border-top:1px solid #666;
+  border-bottom:1px solid #666;
+  display:block;
+  background:url('../images/views-video-list-item-bg.png') #000 repeat-x;
+  padding:0.75em;
+  color:white;
+  font-size:0.62em;
+}
+#block-views-7261ac0f52772be44b36fadbf9fd3a4c .view-content ul li a p,
+#block-views-tournament-slideshow-block-1 .view-content ul li a p{
+  color:#690;
+  margin:0.5em 0 0 0;
+  padding:0;
+}
+#block-views-7261ac0f52772be44b36fadbf9fd3a4c .view-content ul li a:hover,
+#block-views-tournament-slideshow-block-1 .view-content ul li a:hover{
+  text-decoration: none;
+  background:#2b2b2b no-repeat;
+}
+#block-views-7261ac0f52772be44b36fadbf9fd3a4c .view-content ul li a:after,
+#block-views-tournament-slideshow-block-1 .view-content ul li a:after{
+  content:" ";
+  height:0px;
+  display:block;
+  clear:both;
+  visibility: hidden;
+}
+#block-views-7261ac0f52772be44b36fadbf9fd3a4c .view-content ul li a img,
+#block-views-tournament-slideshow-block-1 .view-content ul li a img{
+  float:left;
+  margin-right: .75em ;
+}
+
+/* style changes for the video scroller */
+.view-content .jspVerticalBar{
+  background:#555;
+  width:16px;
+}
+.view-content .jspTrack{
+  background:#555;
+  width:16px;
+  position:absolute;
+  right:0;
+  padding-bottom:1px;
+}
+.view-content .jspDrag{
+  background:#ccc;
+  width:10px;
+  margin:0 auto;
+  background-clip: padding-box;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+.view-content .jspArrowUp{
+  height:16px;
+  width:16px !important;
+  background:url('../images/arrow_up.png') no-repeat center;
+}
+.view-content .jspArrowDown{
+  position:absolute;
+  bottom:0;
+  right:0;
+  height:16px;
+  width:16px !important;
+  background:url('../images/arrow_down.png') no-repeat center;
+}
+
+/*
+header menu block for sub-pages
+*/
+#block-menu-menu-top-tabs{
+  float:right;
+  clear:right;
+  margin-top:18px;
+  width:66%;
+}
+.uskg_main #block-menu-menu-top-tabs{
+  margin-top:70px;
+}
+#block-menu-menu-top-tabs .content ul,
+#block-menu-menu-top-tabs .content ul li{
+  margin:0px;
+  padding:0px;
+}
+#block-menu-menu-top-tabs .content ul li{
+  display:inline-block;
+  margin:0em 8px 0em 0em;
+  width:190px;
+  height:32px;
+  text-align:center;
+  background:url("../images/green-left.png") left no-repeat;
+}
+#block-menu-menu-top-tabs .content ul li a{
+  margin:0px 0px 0px 9px;
+  padding:7px 9px 0px 0px;
+  font-size:1em;
+  color:white;
+  height:25px;
+  background:url("../images/green-right.png") right top no-repeat;
+  text-transform: uppercase;
+}
+#block-menu-menu-top-tabs .content ul li.first{
+  background:url("../images/blue-left.png") left no-repeat;
+}
+#block-menu-menu-top-tabs .content ul li.first a{
+  background:url("../images/blue-right.png") right top no-repeat;
+}
+#block-menu-menu-top-tabs .content ul li.last{
+  background:url("../images/red-left.png") left no-repeat;
+}
+#block-menu-menu-top-tabs .content ul li.last a{
+  background:url("../images/red-right.png") right top no-repeat;
+}
+
+#block-menu-menu-top-tabs .content .menu li.active-trail {
+  background: #FFFFFF;
+  background-clip: padding-box;
+  -webkit-border-radius: 7px 7px 0 0;
+  border-radius: 7px 7px 0 0;
+  font-weight: bold;
+  position: relative;
+  z-index: 10;
+}
+
+#block-menu-menu-top-tabs .content .menu .active {
+  background: none;
+  color: #000000;
+}
+
+
+#block-block-6 .content ul,
+#block-block-6 .content ul li,
+#block-block-7 .content ul,
+#block-block-7 .content ul li{
+  margin:0;
+  padding:0;
+  list-style-type: none;
+  list-style-image: none;
+}
+#block-block-6 .content ul li a,
+#block-block-7 .content ul li a{
+  border-top:1px dashed #E7E6E6;
+  padding:11px 0 8px 20px;
+  display:block;
+  margin-top:8px;
+  font-size:0.75em;
+  color:#666666
+}
+#block-block-6 .content ul li a:before,
+#block-block-7 .content ul li a:before{
+  content:' ';
+  background:url('../images/navPlayUnSelectedBg.gif') no-repeat left center;
+  display:inline-block;
+  height:25px;
+  width:25px;
+  float:right;
+  visibility:visible;
+}
+#block-block-6 .content ul li a:hover,
+#block-block-7 .content ul li a:hover{
+  color: #0000A0;
+  text-decoration:none;
+}
+#block-block-6 .content > ul > li > a:before,
+#block-block-7 .content > ul > li > a:before{
+ background-image: none; 
+}
+#block-block-6 .content > ul > li > a,
+#block-block-7 .content > ul > li > a
+{
+  margin:0px;
+  border:none;
+  padding:11px 0 11px 10px;
+  background:#3F8DE6;
+  font-size:0.85em;
+  font-weight:bold;
+  color:white;
+}
+#block-block-7 .content > ul > li > a{
+  background:#498A13;
+}
+
+
+#node-7 tbody{
+  border:none;
+}
+
+.padd15{
+   margin: 0px;
+   padding: 15px;
+}
+
+/*
+views formatting
+*/
+.view-Club-Map .gmap-gmap{
+  margin:0px auto !important;
+}
+.view-tournaments-query .view-header p{
+  background:#2d2d2d;
+  text-align:center;
+  color:#999999;
+  padding:8px;
+  letter-spacing:6px;
+  font-size:12px;
+  text-transform: uppercase;
+  margin:0px;
+}
+.view-tournaments-query .views-table{
+  padding:0px;
+  margin:0px;
+}
+.view-tournaments-query .views-table thead{
+  background-image: url("../images/tableBGdark.gif");
+}
+.view-tournaments-query .views-table th{
+  color:#ffffff;
+}
+.view-tournaments-query .views-table td{
+  height:111px;
+  background:transparent url("../images/tableBGtourn.gif");
+}
+
+/*
+  Front page is node 169.  need to hide some items.  this may get removed so keep it at the end.
+*/
+/*.front #node-169 h2,*/
+/*.front #node-169 .submitted,*/
+/*.front #node-169 .links,*/
+/*.front .feed-icon,*/
+/*.front #main-content,*/
+/*.front #tabs-wrapper {*/
+  /*display:none;*/
+/*}*/
+
+#node-169 .content p.first{
+  margin:0 auto;
+  padding:0;
+  width:940px
+}
+#node-169 .content p:after{
+  content:'';
+  visibility:hidden;
+  display:table;
+  height:0;
+  clear:both;
+}
+#node-169 .content a{
+  display:inline-block;
+  float:left;
+  position: relative;
+}
+#node-169 .content a:after{
+  content:'';
+  display:block;
+  clear:both;
+  visibility:hidden;
+  height:0px;
+}
+#node-169 table{
+  margin-top:20px;
+  clear:both;
+}
+#node-169 table th{
+  background:#64AC28 url('../images/views-video-list-item-bg.png') repeat-x bottom;
+  color:white;
+  border-spacing:2px;
+  font-size:0.9em
+}
+#node-169 th p{
+  margin:8px 0px;
+}
+#node-169 td p{
+  margin:0;
+}
+#node-169 td{
+  font-size:0.8em;
+  border:1px solid lightgray;
+}
+#node-169 .columnRight{
+  text-align: right !important;
+}
+#node-169 h3{
+  margin:0;
+  padding:0;
+  color:#64AC28;
+  font-weight:bold;
+}
+
+.uskg_coach .views-field-field-instructor-awards {
+    width: 80px;
+}
+
+.uskg_coach .views-field-field-instructor-awards > span {
+    display: none;
+    /* width: 159px; */
+}
+
+/* Instructor Page */
+#edit-distance-wrapper{
+  float: left;
+  width: 90px;
+}
+
+#edit-submit-instructors{
+  margin: 0;
+}
+
+#edit-address-search-wrapper{
+  width: 361px;
+}
+
+#views-exposed-form-instructors-page .views-exposed-form .views-exposed-widget{
+  float: none;
+  display: inline-block;
+}
+
+#views-exposed-form-instructors-page .views-submit-button{
+  padding: 0;
+}
+
+.results-count-coaches{
+  padding: 0 0 10px;
+}
+
+#edit-distance-wrapper{
+  display: none !important;
+}
+
+.view-id-instructors .views-field-field-public-phone {
+  height: 34px;
+  display: block;
+}
+.view-id-instructors .views-field-field-public-phone .field-content {
+  padding-top: 5px;
+  margin-left: 10px;
+  display: inline-block;
+}
+.view-id-instructors .views-label-field-public-phone {
+  text-indent: 999999em;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+  background-image: url(../images/phone.png);
+  width: 32px;
+  height: 32px;
+  background-size: cover;
+  float: left;
+}
+
+.view-id-instructors .views-field-facilities {
+  height: 34px;
+  display: block;
+}
+.view-id-instructors .views-field-facilities .field-content {
+  padding-top: 5px;
+  margin-left: 10px;
+  display: inline-block;
+}
+.view-id-instructors .views-label-field-facilities {
+  text-indent: 999999em;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+  background-image: url(../images/location-pin.png);
+  width: 32px;
+  height: 32px;
+  background-size: cover;
+  float: left;
+}
+
+.view-id-instructors .views-field-personal-website {
+  height: 34px;
+  display: block;
+}
+.view-id-instructors .views-field-personal-website .field-content {
+  padding-top: 5px;
+  margin-left: 10px;
+  display: inline-block;
+}
+.view-id-instructors .views-label-field-personal-website {
+  text-indent: 999999em;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+  background-image: url(../images/website.png);
+  width: 32px;
+  height: 32px;
+  background-size: cover;
+  float: left;
+}
+
+.view-id-instructors .views-field-contact {
+  height: 34px;
+  display: block;
+}
+.view-id-instructors .views-field-contact .field-content {
+  padding-top: 6px;
+  margin-top: 2px;
+  display: inline-block;
+  margin-left: 10px;
+  background-color: #5cac38;
+  padding-bottom: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 5px;
+}
+.view-id-instructors a .views-field-contact {
+  color: #ffffff;
+}
+.view-id-instructors .views-label-field-contact {
+  text-indent: 999999em;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+  background-image: url(../images/mail.png);
+  width: 32px;
+  height: 32px;
+  background-size: cover;
+  float: left;
+}
+.view-id-instructors .views-field-field-i-am ul {
+  list-style: none;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.view-id-instructors .views-field-field-i-am ul li {
+  list-style: none;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.view-id-instructors .views-field-field-i-am .field-content {
+  color: #414C81;
+  font-size: 1.7em;
+  margin-bottom: 20px;
+}
+.view-id-instructors .views-field-field-i-am .field-content .bio-iam {
+  font-weight: bold;
+}
+
+.view-id-instructors .views-label-field-bio {
+  color: #414C81;
+  font-size: 1.7em;
+  font-weight: bold;
+}
+.view-id-instructors .views-field-field-photo img {
+height: 320px;
+width: 320px;
+}
+.view-id-instructors .views-field-nothing-1 {
+  display: block;
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.view-id-instructors .views-field-field-bio, .view-id-instructors .views-field-field-i-am {
+  clear: both;
+}
+
+.view-id-instructors .views-field-field-photo {
+  float: left;
+  width: 320px;
+  display: block;
+}
+
+.view-id-instructors .award-images {
+  width: 380px;
+  display: block;
+  float: left;
+  margin-left: 20px;
+}
+
+.view-id-instructors .award-images span.ext {
+  display: none;
+}
+
+.coach-contact-info ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+.coach-contact-info ul li {
+  margin: 0;
+  padding: 0;
+}

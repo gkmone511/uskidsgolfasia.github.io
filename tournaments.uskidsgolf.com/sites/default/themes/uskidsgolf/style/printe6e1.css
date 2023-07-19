@@ -1,0 +1,26 @@
+
+/******************************************************************************
+ * Print stylesheet
+ */
+
+* {
+  background: none;
+  color: #000000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  background: none;
+  color: #000000;
+  page-break-after: avoid;
+}
+
+
+nav, aside {
+  display: none;
+}
+
+
+@page {
+  margin: 2cm 1.5cm;
+}
+

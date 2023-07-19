@@ -1,0 +1,1272 @@
+.marker-cluster-small {
+  /*background: green;*/
+  /*color: white;*/
+}
+
+.marker-cluster-medium {
+  /*background: yellow;*/
+}
+
+.marker-cluster-large {
+  /*background: red;*/
+  /*color: white;*/
+}
+
+/**
+ * Login page
+ */
+.page-user #content,
+.uskg_club #content {
+  padding-top: 2em;
+}
+
+#user-login {
+  float: left;
+  margin-bottom: 30px;
+  width: 47%;
+  box-shadow: 0 10px 11px -15px rgba(0,0,0,0.4);
+}
+
+#user-login .form-item input {
+  width: 100%;
+  height: 2.25rem;
+}
+
+#user-login label {
+  display: block;
+  float: left;
+  line-height: 32px;
+  width: 120px;
+}
+
+#user-login .password-link-wrapper a {
+  color: #ea7d24;
+  border-bottom: 1px solid #ea7d24;
+  font-weight: 400;
+}
+
+#user-login .password-link-wrapper a:hover {
+  color: #b15911;
+  border-color: #b15911;
+}
+
+.page-user-login h1 {
+  padding-left: 2rem;
+}
+
+.page-user-login .block._squeeze {
+  padding-left: 1.5rem;
+  padding-right: 2.5rem;
+}
+
+.page-user-login .__margin-bottom-2 {
+  margin-bottom: 1.25rem;
+}
+
+.page-user-login .img-wrap {
+  display: block;
+  text-align: center;
+}
+
+.page-user-login .img-wrap img {
+  display: initial;
+}
+
+.page-user-login .block-customer-login._block-signup .block-title strong {
+  font-weight: 600;
+}
+
+.page-user-login .block-customer-login._block-signup .block-title {
+  color: #2b2b2b;
+  font-size: 1.5rem;
+  font-family: 'Montserrat','Open Sans',Helvetica,Arial,sans-serif;
+  line-height: 1.2;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.page-user-login .block-customer-login .actions-toolbar a {
+  display: block;
+  font-weight: 500;
+}
+
+.page-user-login .block-customer-login .actions-toolbar input.form-submit {
+  width: 100%;
+  display: block;
+  font-weight: 500;
+}
+
+.page-user-login h2.node-title.title {
+  display: none;
+}
+
+#block-uskg-blocks-sign-in-promo,
+#block-uskg-blocks-create-account {
+  clear: right;
+  float: right;
+  width: 44%;
+}
+
+#block-uskg-blocks-create-account {
+  margin-bottom: 2em;
+  text-align: left;
+}
+
+/**
+ * Profile page
+ */
+#user-profile-form .form-item {
+  overflow: hidden;
+}
+
+#user-profile-form .form-item-field-local-tour-subscriptions-und {
+  overflow: visible;
+  padding-bottom: 2em;
+}
+
+#user-profile-form label {
+  float: left;
+  margin-right: 15px;
+  text-align: right;
+  width: 150px;
+}
+
+#user-profile-form input,
+#user-profile-form .description {
+}
+
+#user-profile-form input,
+#user-profile-form .term-reference-tree {
+  float: left;
+  max-width: 550px;
+}
+
+#user-profile-form .form-textarea-wrapper {
+  float: left;
+  /*max-height: 10em;*/
+  width: 550px;
+}
+
+#user-profile-form .text-format-wrapper .filter-wrapper {
+  display: none;
+  margin-left: 165px;
+  width: 548px;
+}
+
+#user-profile-form .filter-wrapper label {
+  float: none;
+}
+
+#user-profile-form .field-widget-entityreference-autocomplete {
+  margin-left: 165px;
+  overflow: hidden;
+}
+
+#user-profile-form .field-widget-entityreference-autocomplete .sticky-header {
+  display: none;
+}
+
+#user-profile-form .field-widget-entityreference-autocomplete .form-text {
+  max-width: 485px;
+}
+
+#user-profile-form #edit-field-local-tour-subscriptions-und {
+  width: 546px;
+}
+
+#user-profile-form .description {
+  float: right;
+  font-size: 0.8em;
+  margin-right: 10px;
+  width: 526px;
+}
+
+#user-profile-form .field-widget-phone-textfield .description {
+  margin-bottom: 0;
+}
+
+#user-profile-form .password-parent,
+#user-profile-form .confirm-parent {
+  width: auto;
+}
+
+#user-profile-form .password-strength,
+#user-profile-form .password-confirm {
+  margin-top: 0;
+  width: 16em;
+}
+
+#user-profile-form fieldset.location,
+#user-profile-form #addressfield-wrapper .form-wrapper {
+  border: none;
+  padding-left: 0;
+}
+
+#user-profile-form .location .fieldset-legend,
+#user-profile-form #addressfield-wrapper .fieldset-legend {
+  font-size: 22px;
+}
+
+#user-profile-form .location label {
+  margin-right: 5px;
+}
+
+#user-profile-form .location .form-type-checkbox {
+  margin-left: 165px;
+  margin-bottom: 0;
+}
+
+#user-profile-form .location .form-type-checkbox label {
+  padding-left: 10px;
+  width: auto;
+}
+
+#user-profile-form .field-name-field-local-tour-subscriptions select {
+  max-width: 550px;
+  min-width: 450px;
+  width: auto;
+}
+
+#user-profile-form .field-type-list-boolean,
+#user-profile-form .form-item-contact,
+#user-profile-form .form-type-checkboxes,
+#user-profile-form .form-type-radios {
+  clear: right;
+}
+
+#user-profile-form .field-type-list-boolean input,
+#user-profile-form .form-item-contact input,
+#user-profile-form .form-type-checkboxes .form-checkboxes,
+#user-profile-form .form-type-radios .form-radios {
+  margin-left: 168px;
+}
+
+#user-profile-form .field-type-list-boolean label,
+#user-profile-form .form-item-contact label,
+#user-profile-form .form-type-checkboxes label,
+#user-profile-form .form-type-radios label {
+  margin-left: 7px;
+  width: auto;
+}
+
+#user-profile-form #edit-cancel {
+  float: right;
+}
+
+#user-profile-form .field-widget-field-collection-table td fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+#user-profile-form .field-widget-field-collection-table td .fieldset-legend {
+  display: none;
+}
+
+#user-profile-form .field-widget-field-collection-table input,
+#user-profile-form .field-widget-field-collection-table label,
+#user-profile-form .field-widget-field-collection-table .description {
+  float: none;
+  margin: 0;
+  text-align: center;
+  width: auto;
+}
+
+#user-profile-form .field-widget-field-collection-table td input {
+  max-width: 120px;
+}
+
+#user-profile-form .field-widget-field-collection-table .field-add-more-submit {
+  margin-top: 1em;
+}
+
+body.uskg_club {
+/*background: url(../images/header-red-gradient.png) repeat-x top left #FFF;*/
+}
+
+body.uskg_club #block-uskg-blocks-header-menu .menu li {
+border-color: #FFF;
+}
+
+body.uskg_club #logo-floater img {
+padding-top: 22px;
+}
+
+body.page-user-edit ul.tabs {
+display: none;
+}
+
+body.page-user h3,
+body.page-user-children #content h1,
+body.node-type-child #content h1,
+body.uskg_club #content h1 {
+font-size: 22px;
+font-weight: normal;
+color: #494949;
+}
+
+body.uskg_club #content h1,
+body.node-type-child #content h1 {
+background: none;
+padding-left: 0;
+}
+
+.node-type-child fieldset,
+.page-node-add-child fieldset {
+border: 0 none;
+margin: 0;
+padding: 0;
+}
+
+.node-type-child .group-personal > legend,
+.page-node-add-child .group-personal > legend {
+display: none;
+}
+
+.node-type-child .fieldset-legend,
+.page-node-add-child .fieldset-legend {
+font-weight: bold;
+}
+
+.node-type-child .date-padding,
+.page-node-add-child .date-padding {
+padding: 1px 0;
+}
+
+.node-type-child .field-name-field-first-name .form-item {
+margin-top: 0;
+}
+
+.page-node-add-child .fieldset-description {
+color: #898989;
+font-size: 0.85em;
+line-height: 150%;
+margin-bottom: 0.75em;
+}
+
+.page-node-add-child .form-actions {
+margin-top: 1em;
+}
+
+.page-node-add-child .form-item {
+margin: 0 0 4px 0;
+}
+
+.page-node-add-child div.form-wrapper {
+padding-bottom: 0.5em;
+}
+
+.page-node-add-child div.field-name-field-help-text {
+padding-bottom: 0;
+}
+
+.uskg_club .tabs {
+font-size: 1em;
+}
+
+.uskg_club .tabs .active {
+font-weight: bold;
+}
+
+body.page-user-register #content h1 {
+font-size: 22px;
+font-weight: normal;
+margin-top: 20px;
+color: #494949;
+}
+
+body.page-user-register #content h3 {
+font-size: 19px;
+margin: 30px 0 10px;
+}
+
+.page-user-edit #page-title {
+display: none;
+}
+
+.page-user-edit h3 {
+margin-top: 0;
+}
+
+form#views-exposed-form-results-default,
+.view-tour-directors .attachment,
+.view-tour-points #ctools-jump-menu,
+.view-results #ctools-jump-menu {
+margin-left: 3px;
+}
+
+.view-children h2.node-title {
+margin-bottom: 5px;
+font-size: 1.3em;
+}
+
+.view-children .ds-2col-stacked {
+overflow: hidden;
+}
+
+.view-children .ds-2col-stacked > .group-left {
+float: left;
+padding-left: 2%;
+width: 48%;
+}
+
+.view-children .ds-2col-stacked > .group-right {
+float: right;
+width: 50%;
+}
+
+.view-news .views-field-title {
+font-size: 18px;
+font-weight: bold;
+margin-top: 15px;
+}
+
+.view-news .views-field-created {
+font-style: italic;
+font-size: 12px;
+}
+
+#block-views-exp-news-page-1 select#edit-topic {
+width: 156px;
+}
+
+#block-views-exp-news-page-1 .views-submit-button {
+clear: both;
+padding-top: 0;
+}
+
+#block-views-exp-news-page-1 .views-reset-button {
+padding-top: 0;
+}
+
+.leaflet-popup-content div.content,
+.leaflet-popup-content a,
+.leaflet-popup-content div.location {
+font-size: 12px;
+}
+
+.leaflet-popup-content h2 {
+background: #ECEAEF;
+background-clip: padding-box;
+-webkit-border-radius: 7px;
+border-radius: 7px;
+clear: both;
+font-size: 15px;
+line-height: 24px;
+padding: 0 5px;
+}
+
+.leaflet-popup-content h2 a {
+font-size: 15px;
+line-height: 24px;
+}
+
+.leaflet-popup-content .node-title {
+margin-top: 0.3em;
+}
+
+.leaflet-popup-content .user-profile {
+margin-bottom: 4px;
+}
+
+.node-news-article.view-mode-full .field-name-post-date {
+text-align: right;
+}
+
+.page-search .node-news-article .field-name-post-date,
+.page-search .node-news-file .field-name-post-date {
+text-align: left;
+font-style: italic;
+font-size: 14px;
+}
+
+.page-search .node-news-file p {
+margin: 2px 0 0;
+}
+
+.view-upcoming-events h2 {
+margin: 10px 0 0;
+padding: 3px 0;
+width: 100%;
+text-align: center;
+background: #333;
+color: #999;
+font-size: 12px;
+letter-spacing: 6px;
+text-transform: uppercase;
+font-weight: normal;
+height: 27px;
+line-height: 27px;
+}
+
+.view-upcoming-events table {
+margin-top: 0;
+}
+
+.view-upcoming-events table th,
+.view-upcoming-events table th a {
+background: #729900;
+color: #FFF;
+border: none;
+font-weight: normal;
+}
+
+.view-upcoming-events table th {
+height: 27px;
+padding: 0px;
+background: url(../images/tableBGdark.gif) repeat-x 0 0;
+}
+
+.view-upcoming-events table tr.odd,
+.view-upcoming-events table tr.even,
+.view-upcoming-events table tr.odd td.active,
+.view-upcoming-events table tr.even td.active {
+background: none;
+}
+
+.view-upcoming-events table tr.odd td.active,
+.view-upcoming-events table tr.even td.active,
+.view-upcoming-events table td {
+background-image: url(../images/tableBGtourn.gif);
+height: 111px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 11px;
+letter-spacing: 1px;
+text-align: center;
+line-height: 20px;
+}
+
+.view-upcoming-events img {
+margin: 0 auto;
+}
+
+/*******/
+.uskg_club .breadcrumb {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  overflow: hidden;
+  height: 1px;
+}
+
+.page-user-edit .form-item-field-home-address-und-0-administrative-area,
+.page-user-edit .form-item-field-home-address-und-0-locality,
+.page-user-edit .form-item-field-home-address-und-0-postal-code {
+  margin-top: 0;
+}
+
+.views-field-field-instructor-facilities ul,
+.views-field-field-instructor-facilities ul li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.views-field-field-instructor-facilities h2.node-title {
+  font-size: 1.1em;
+}
+
+#site-map .leaf .separator {
+  display: block;
+  width: 40%;
+}
+
+.view-tournaments #edit-event-wrapper {
+  display: none;
+}
+
+.view-instructors .views-exposed-widgets,
+.view-facilities .views-exposed-widgets {
+  /*line-height: 1.6em;*/
+}
+
+.view-tournaments .views-exposed-widget {
+  /*clear: both;*/
+  padding-left: 2px;
+}
+
+.view-tournaments .views-submit-button {
+  height: 26px;
+}
+
+.view-instructors td.views-field-field-instructor-awards.Certified-Coach {
+  background: url('../images/uskg-find-certified-coach.png');
+  background-repeat: no-repeat;
+  background-size: 35px 35px;
+  background-position: center center;
+  text-indent: -9999px;
+  height: 35px;
+}
+
+.view-instructors td.views-field-field-instructor-awards.Top-50-Kids-Teacher {
+  background: url('../images/uskg-find-top-50.png');
+  background-repeat: no-repeat;
+  background-size: 35px 35px;
+  background-position: center center;
+  text-indent: -9999px;
+  height: 35px;
+}
+
+.view-instructors td.views-field-field-instructor-awards.Master-Kids-Teacher {
+  background: url('../images/uskg-find-masters-50.png');
+  background-repeat: no-repeat;
+  background-size: 35px 35px;
+  background-position: center center;
+  text-indent: -9999px;
+  height: 35px;
+}
+
+.view-instructors td.views-field-field-instructor-awards.Level-2 {
+  background: url('../images/uskg-find-level-2.png');
+  background-repeat: no-repeat;
+  background-size: 35px 35px;
+  background-position: center center;
+  text-indent: -9999px;
+  height: 35px;
+}
+
+.view-instructors td.views-field-field-instructor-awards.Certified-Coach.Top-50-Kids-Teacher {
+  background: url('../images/uskg-find-certified-top50.png');
+  background-repeat: no-repeat;
+  background-size: 70px 35px;
+  background-position: center center;
+  text-indent: -9999px;
+  height: 35px;
+  width: 70px;
+}
+
+.view-instructors td.views-field-field-instructor-awards.Level-2.Top-50-Kids-Teacher,
+.view-instructors td.views-field-field-instructor-awards.Certified-Coach.Level-2.Top-50-Kids-Teacher {
+  background: url('../images/uskg-find-top50-level2.png');
+  background-repeat: no-repeat;
+  background-size: 70px 35px;
+  background-position: center center;
+  text-indent: -9999px;
+  height: 35px;
+  width: 70px;
+}
+
+.view-instructors td.views-field-field-instructor-awards.Certified-Coach.Master-Kids-Teacher,
+.view-instructors td.views-field-field-instructor-awards.Certified-Coach.Top-50-Kids-Teacher.Master-Kids-Teacher {
+  background: url('../images/uskg-find-certified-masters50.png');
+  background-repeat: no-repeat;
+  background-size: 70px 35px;
+  background-position: center center;
+  text-indent: -9999px;
+  height: 35px;
+  width: 70px;
+}
+
+.view-instructors td.views-field-field-instructor-awards.Level-2.Master-Kids-Teacher,
+.view-instructors td.views-field-field-instructor-awards.Level-2.Top-50-Kids-Teacher.Master-Kids-Teacher,
+.view-instructors td.views-field-field-instructor-awards.Certified-Coach.Level-2.Master-Kids-Teacher,
+.view-instructors td.views-field-field-instructor-awards.Certified-Coach.Level-2.Top-50-Kids-Teacher.Master-Kids-Teacher{
+  background: url('../images/uskg-find-masters50-level2.png');
+  background-repeat: no-repeat;
+  background-size: 70px 35px;
+  background-position: center center;
+  text-indent: -9999px;
+  height: 35px;
+  width: 70px;
+}
+
+.view-instructors td.views-field-field-instructor-awards .field-collection-item-field-instructor-awards .field-name-instructor-award {
+  display: block;
+  height: 0px;
+}
+
+.view-tour-tournaments .node-471219,
+.view-tournaments .node-471219 {
+  margin-top: 1em;
+}
+
+.view-tour-tournaments caption h2 {
+  margin-top: 0;
+  text-align: left;
+}
+
+.view-tours .views-exposed-form .form-submit {
+  /*height: 27px;*/
+  /*line-height: 110%;*/
+}
+
+.view-tours .views-exposed-form .form-autocomplete {
+  height: 18px;
+}
+
+html.js .view-tours .views-exposed-form .form-autocomplete {
+  background-position-y: 5px;
+}
+
+html.js .view-tours .views-exposed-form .form-autocomplete.throbbing {
+  background-position-y: -15px;
+}
+
+.public-profile .field-name-field-work-number {
+  margin-bottom: 1em;
+}
+
+.public-profile .field-name-field-photo img {
+  float: left;
+  margin: 0.6em 1em 0.5em 0;
+}
+
+.view-instructors .views-field-field-instructor-awards th,
+.view-instructors .views-field-field-instructor-awards td {
+  width: 50%;
+}
+
+.view-instructors.public-profile .user-details {
+  /*border: 1px solid black;*/
+  padding: 0;
+}
+
+.view-instructors.public-profile .user-details li {
+  list-style: none;
+  margin: 0px 0px 10px 0px;
+  padding: 0px;
+}
+
+.award-images .item-list ul {
+  margin: 0;
+  padding: 0;
+  /*width: 110px;*/
+  /*border: 1px solid black;*/
+}
+
+.view-instructors.public-profile .user-details .label {
+  /*border: 1px solid black;*/
+  display: inline-block;
+  font-weight: bold;
+  padding-right: 10px;
+  /*min-width: 82px;*/
+}
+
+.award-images .item-list ul li {
+  list-style: none;
+  /*border: 1px solid black;*/
+  text-align: center;
+  margin: 0;
+}
+
+.view-instructors.public-profile .user-details a {
+  /*border: 1px solid black;*/
+}
+
+.view-instructors .views-field-field-instructor-facilities .node-facility {
+  margin-top: 0.5em;
+}
+
+.public-profile .views-field-field-bio {
+  margin-bottom: 1em;
+}
+
+.views-field-field-bio .field-content {
+  position: relative;
+}
+
+.js .views-field-field-bio .field-content {
+  /*max-height: 11.5em;*/
+  overflow: hidden;
+}
+
+.js .views-field-field-bio .expanded {
+  max-height: none;
+  overflow: visible;
+}
+
+.views-field-field-bio .read-more {
+  /*background: white;*/
+  /*bottom: 0;*/
+  display: block;
+  font-size: 0.875em;
+  /*margin: 0;*/
+  /*padding: 0;*/
+  padding-top: 0.875em;
+  /*position: absolute;*/
+  /*right: 0;*/
+  /*text-align: right;*/
+  /*width: 100%;*/
+}
+
+.views-field-field-bio .expanded .read-more {
+  display: none;
+}
+
+.public-profile .views-field-field-bio li {
+  list-style-position: inside;
+}
+
+.page-user-tournaments .block-content.content {
+  overflow-x: auto;
+}
+
+#supa-registration-wizard .registered-event,
+#supa-registration-wizard .registered-event input {
+}
+
+#supa-registration-wizard .registered-event {
+}
+
+#supa-registration-wizard .registered-event input {
+}
+
+#supa-registration-wizard table {
+  margin: 0.5em 0;
+}
+
+#supa-registration-wizard .table-data,
+#supa-registration-wizard .table-header {
+  text-align: left;
+  font-size: 0.9em;
+}
+
+#supa-registration-wizard .table-data-event .regdates {
+  font-size: 0.75em;
+}
+
+#supa-registration-wizard .table-data-event .unlocked {
+  font-size: 0.75em;
+  font-weight: bold;
+}
+
+#supa-registration-wizard .closed-notice {
+  color: #CD371A;
+  font-size: 0.75em;
+  font-weight: bold;
+}
+
+#supa-registration-wizard .table-data-event h2 {
+  margin: 0.1em;
+  font-size: 0.95em;
+}
+
+#supa-registration-wizard .table-data-event .adr {
+  font-size: 0.8em;
+}
+
+#supa-registration-wizard .table-data-event {
+  width: 22em;
+}
+
+#supa-registration-wizard .table-data-event .adr div {
+  display: inline-block;
+}
+
+#supa-registration-wizard .table-data-event .adr .country-name,
+#supa-registration-wizard .table-data-event .adr .postal-code {
+  display: none;
+}
+
+#supa-registration-wizard .table-data-fees {
+  font-size: 0.8em;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#supa-registration-wizard .table-data-fees .label {
+  color: #999;
+}
+
+#supa-registration-wizard .table-data-player,
+#supa-registration-wizard .table-header-player {
+  text-align: center;
+}
+
+#supa-registration-wizard .table-data-player {
+  font-size: 0.7em;
+}
+
+#supa-registration-wizard .table-data-date,
+#supa-registration-wizard .table-header-date {
+  white-space: nowrap;
+  min-width: 6em;
+}
+
+#supa-registration-wizard .table-header-fees {
+  /*max-width: 3em;*/
+}
+
+#supa-registration-wizard .table-data-fees {
+  white-space: nowrap;
+  font-size: 0.75em;
+}
+
+#supa-registration-wizard .table-data-fees .late {
+  color: red;
+}
+
+#supa-registration-wizard .season-membership-fee-disclaimer {
+  font-size: 0.7em;
+  color: #666;
+}
+
+.map-popup-content .field-collection-view {
+  margin-right: -1px;
+}
+
+.map-popup-content .field-collection-view + .field-collection-view {
+  margin-left: 2px;
+}
+
+.view-id-events .table-button {
+  text-align: center;
+}
+
+.node-teaser .field-name-post-date {
+  font-size: 0.8em;
+}
+
+.rgba .marker-cluster {
+  color: white;
+}
+
+.marker-cluster-small {
+  background-color: lightgreen;
+  background-color: rgba(181, 226, 140, 0.6);
+}
+
+.marker-cluster-small div {
+  background-color: green;
+  background-color: rgba(110, 204, 57, 0.6);
+}
+
+.marker-cluster-medium {
+  background-color: #FFFFE0;
+  background-color: rgba(241, 211, 87, 0.6);
+}
+
+.marker-cluster-medium div {
+  background-color: yellow;
+  background-color: rgba(240, 194, 12, 0.6);
+}
+
+.marker-cluster-large {
+  background-color: lightsalmon;
+  background-color: rgba(253, 156, 115, 0.6);
+}
+
+.marker-cluster-large div {
+  background-color: salmon;
+  background-color: rgba(241, 128, 23, 0.6);
+}
+
+.page-node-285006 .node .field-item p:first-child {
+  margin-top: 0;
+}
+
+.tour-results > .view-content,
+.tour-results > .view-filters,
+.view-tournament-jumps .view-content,
+.view-tournament-jumps .view-filters {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.view-tournament-jumps .attachment .view-content {
+  display: block;
+}
+
+.tour-results .views-exposed-widgets,
+.view-tournament-jumps .views-exposed-widgets {
+  margin-bottom: 0;
+}
+
+.tour-results .views-exposed-widget,
+.view-tournament-jumps .views-exposed-widget {
+  margin: 1em 0;
+  padding: 0;
+}
+
+.tour-results #ctools-jump-menu .form-submit,
+.view-tournament-jumps #ctools-jump-menu .form-submit {
+  margin-top: 36px;
+}
+
+body.maintenance-page {
+  /*background: url(../images/background_maint.jpg) no-repeat center top #333;*/
+}
+
+body.maintenance-page #wrapper {
+  background: #FFF;
+  border-radius: 10px;
+  margin: 20px auto;
+  padding: 10px;
+  width: 650px;
+}
+
+body.maintenance-page #header {
+  text-align: center;
+}
+
+body.maintenance-page #header #logo-floater {
+  float: none;
+}
+
+body.maintenance-page #header img {
+  display: inline;
+}
+
+body.maintenance-page #content {
+  box-shadow: none;
+  text-align: center;
+  font-size: 0.8em;
+  font-family: Verdana;
+}
+
+body.maintenance-page #content h1 {
+  background: none;
+  color: #000;
+  font-size: 1.4em;
+}
+
+body.maintenance-page h1#page-title {
+  display: none;
+}
+
+body.maintenance-page a.twitter,
+body.maintenance-page a.facebook {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background: url(../images/icon_tw.png) no-repeat center;
+}
+
+body.maintenance-page a.facebook {
+  background: url(../images/icon_fb.png) no-repeat center;
+}
+
+.node-type-local-tour .field-name-field-top-image {
+  margin-bottom: 1em;
+}
+
+.page-user-children .menu-mlid-3172 a {
+  background: none;
+  font-weight: bold;
+  color: #000;
+}
+
+.view-tour-jumps .view-footer {
+  clear: both;
+}
+
+.adr .street-address .additional {
+  display: block;
+}
+
+#participant-form .field-name-field-hometown fieldset,
+#participant-form .field-name-field-year fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+#participant-form .field-name-field-hometown .fieldset-legend,
+#participant-form .field-name-field-year .fieldset-legend {
+  font-weight: bold;
+}
+
+#participant-form .field-name-field-year .date-padding {
+  padding-left: 0;
+}
+
+.page-user-join .event,
+.page-user-team .event {
+  overflow-x: auto;
+}
+
+.bleh {
+  border: 0px;
+}
+
+#user_user_form_group_i_am_bio .user_user_form_group_i_am_bio .description {
+  width: 544px;
+  display: inline-block;
+  max-width: 544px;
+  margin-left: 165px;
+}
+
+#user_user_form_group_i_am_bio .field-name-field-i-am {
+  width: 544px;
+  display: inline-block;
+  max-width: 544px;
+  margin-left: 165px;
+}
+
+#user_user_form_group_i_am_bio #bio-stuff {
+  opacity: 0.0;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+  position: absolute;
+  background-color: #ffffff;
+  margin-right: 10px;
+  margin-top: 30px;
+  padding: 20px;
+  border: solid #eee 1px;
+  z-index: -1000;
+  width: 500px;
+  display: block;
+  float: left;
+}
+
+#user_user_form_group_i_am_bio .hover-help {
+  text-indent: 999999em;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+  background-image: url(../images/help-popup.png);
+  width: 32px;
+  height: 32px;
+  background-size: cover;
+  float: right;
+  margin-top: -40px;
+}
+
+#user_user_form_group_i_am_bio .hover-help:hover + #bio-stuff {
+  opacity: 1.0;
+  z-index: 1000;
+}
+
+#field-instructor-facilities-add-more-wrapper #facilities-stuff {
+  opacity: 0.0;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+  position: absolute;
+  background-color: #ffffff;
+  margin-right: 10px;
+  margin-top: 30px;
+  padding: 20px;
+  border: solid #eee 1px;
+  z-index: -1000;
+  width: 500px;
+  display: block;
+  float: left;
+}
+#field-instructor-facilities-add-more-wrapper .hover-help {
+  text-indent: 999999em;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+  background-image: url(../images/help-popup.png);
+  width: 32px;
+  height: 32px;
+  background-size: cover;
+  float: right;
+}
+#field-instructor-facilities-add-more-wrapper .hover-help:hover + #facilities-stuff {
+  opacity: 1.0;
+  z-index: 1000;
+}
+
+#user-profile-form .field-name-field-public-phone {
+  clear: both;
+}
+
+#user-profile-form .field-name-field-instructor-facilities {
+  margin-bottom: 40px;
+}
+#user_user_form_group_i_am_bio h3 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 89px;
+  float: left;
+}
+#user_user_form_group_i_am_bio .description {
+  margin-top: -5px;
+}
+
+body.node-type-donation form.commerce-add-to-cart {
+  padding-left: 15px;
+}
+
+body.node-type-donation form.commerce-add-to-cart > div > div {
+  display: inline-block;
+  margin-right: 2em;
+}
+
+body.node-type-donation form.commerce-add-to-cart > div > div > label {
+  padding-bottom: 10px;
+}
+
+body.node-type-donation form.commerce-add-to-cart > div > div > select {
+  height: 24px;
+}
+
+body.node-type-donation form.commerce-add-to-cart > div > div > div > div > div > label {
+  padding-bottom: 10px;
+}
+
+body.node-type-donation form.commerce-add-to-cart input.form-submit {
+  background: #0b55ad;
+  color: #fff;
+  line-height: calc(3.5em - 4px);
+  font-size: 1em;
+  letter-spacing: 2px;
+  padding-left: 1.2em;
+  padding-right: 1.2em;
+  display: inline-block;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  white-space: nowrap;
+  border: 2px solid #0b55ad;
+  border-radius: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 200;
+  padding-top: 0;
+  padding-bottom: 0;
+  position: relative;
+  top: -1em;
+}
+
+body.node-type-donation form.commerce-add-to-cart input.form-submit:hover,
+body.node-type-donation form.commerce-add-to-cart input.form-submit:focus,
+body.node-type-donation form.commerce-add-to-cart input.form-submit:active {
+  background: transparent;
+  border-color: #0b55ad;
+  color: #0b55ad;
+}
+
+body.node-type-donation form.commerce-add-to-cart input.form-submit:hover,
+body.node-type-donation form.commerce-add-to-cart input.form-submit:focus,
+body.node-type-donation form.commerce-add-to-cart input.form-submit:active {
+  background: transparent;
+  border-color: #0b55ad;
+  color: #0b55ad;
+}
+
+.supa-ecredit-page #header h2 {
+  padding-bottom: 0 !important;
+  margin-bottom: 0;
+}
+
+.supa-ecredit-page #outer-number {
+  padding: 10px 0;
+}
+
+.supa-ecredit-page #outer-number #text {
+  font-size: 2.5em;
+  font-weight: 500;
+  text-align: center;
+}
+
+.supa-ecredit-page #as_of_X_reminder {
+  padding: 5px 12px 12px 12px;
+  text-align: center;
+  font-size: .85em;
+  font-style: italic;
+}
+
+.supa-ecredit-page #text-xtra-sm {
+  font-size: .65em;
+  vertical-align: top;
+}

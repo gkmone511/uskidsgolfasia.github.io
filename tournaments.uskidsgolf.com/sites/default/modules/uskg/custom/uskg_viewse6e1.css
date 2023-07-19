@@ -1,0 +1,17 @@
+
+.view-local-tour-events-and-seasons .views-table .event-late-reg-date {
+  width: 140px;
+}
+
+/*.view-local-tour-events-and-seasons .views-table .event-results {*/
+  /*display: none;*/
+/*}*/
+
+/*.view-local-tour-events-and-seasons .views-table .event-complete .event-reg-date,*/
+/*.view-local-tour-events-and-seasons .views-table .event-complete .event-late-reg-date {*/
+  /*display: none;*/
+/*}*/
+
+/*.view-local-tour-events-and-seasons .views-table .event-complete .event-results {*/
+  /*display: table-cell;*/
+/*}*/

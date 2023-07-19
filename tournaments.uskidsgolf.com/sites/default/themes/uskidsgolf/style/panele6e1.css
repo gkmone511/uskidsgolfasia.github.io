@@ -1,0 +1,26 @@
+
+.panels-sidebar .pane-title {
+  background-color: #ECECEC;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#E0E0E0), to(#CCCCCC));
+  background-image: -webkit-linear-gradient(top, #E0E0E0, #CCCCCC);
+  background-image:    -moz-linear-gradient(top, #E0E0E0, #CCCCCC);
+  background-image:      -o-linear-gradient(top, #E0E0E0, #CCCCCC);
+  background-image:         linear-gradient(to bottom, #E0E0E0, #CCCCCC);
+
+  color: #000000;
+  font-size: 12px;
+  line-height: 18px;
+  margin-top: 0;
+  padding: 7px 15px;
+  text-transform: uppercase;
+}
+
+.panels-sidebar .pane-block .pane-content {
+  font-size: 12px;
+  overflow: hidden;
+  padding: 1em;
+}
+
+.panels-sidebar .pane-content a {
+  color: #4EA000;
+}

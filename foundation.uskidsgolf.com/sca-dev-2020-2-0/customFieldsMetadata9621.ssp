@@ -1,0 +1,1 @@
+SC.ENVIRONMENT.customFieldsMetadata={"salesorder":{"custbody_acs_wr_rc_response":{"label":"ACS Recaptcha Placeholder","type":"text","mandatory":false}}}
